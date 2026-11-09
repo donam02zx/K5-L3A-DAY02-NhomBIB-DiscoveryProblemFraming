@@ -124,15 +124,18 @@ BOTTLENECK: Tốn khoảng 15–20 phút để rà soát đề cũ
 
 ### Card muốn pitch nhất
 
-- Card số:
-- Vì sao:
-- Câu hỏi muốn nhóm phản biện:
+- Card số: 2 – Tìm kiếm và chọn lọc tài liệu.
+- Vì sao:Đây là công việc lặp lại trong quá trình chuẩn bị bài giảng, tiêu tốn khoảng 20 phút cho mỗi đơn vị kiến thức. AI có thể hỗ trợ tìm kiếm, tổng hợp và phân loại tài liệu theo chủ đề, mức độ khó và trình độ học sinh, giúp giáo viên giảm thời gian chuẩn bị nhưng vẫn chủ động kiểm tra nội dung trước khi sử dụng.
+- Câu hỏi muốn nhóm phản biện: Làm thế nào để đảm bảo tài liệu do AI tìm kiếm và tổng hợp có nguồn đáng tin cậy, chính xác và phù hợp với trình độ học sinh?
 
 ### AI đã phản biện card thế nào
 
 | Điểm yếu AI chỉ ra | Đồng ý? | Đã sửa gì |
 |---|---|---|
-| | | |
+| Chưa xác định rõ tiêu chí đánh giá một tài liệu là phù hợp với chương trình và trình độ học sinh. | Đồng ý | Bổ sung tiêu chí phân loại tài liệu theo chủ đề, mức độ khó và trình độ học sinh. |
+| AI có thể tổng hợp thông tin thiếu chính xác hoặc sử dụng nguồn không đáng tin cậy. | Đồng ý | Bổ sung yêu cầu cung cấp nguồn tham khảo để giáo viên kiểm tra và xác minh trước khi sử dụng. |
+| Chưa có tiêu chí cụ thể để đo lường hiệu quả của giải pháp AI. | Đồng ý | Sử dụng thời gian tìm kiếm và chọn lọc hiện tại (khoảng 20 phút/đơn vị kiến thức) làm baseline; đề xuất mục tiêu giảm xuống dưới 10 phút. |
+| Chưa làm rõ liệu AI có thực sự cần thiết hay có thể giải quyết bằng cách lưu trữ tài liệu theo chủ đề. | Đồng ý một phần | Bổ sung phương án không dùng AI: xây dựng thư viện tài liệu theo chủ đề và tái sử dụng nguồn có sẵn. |
 
 ---
 
