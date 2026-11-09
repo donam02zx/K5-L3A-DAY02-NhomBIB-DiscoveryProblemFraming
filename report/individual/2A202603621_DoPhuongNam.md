@@ -33,7 +33,6 @@
 | 2 | Tổng hợp và nhận xét bài tập MindX (#2) | Lặp đều 2 lần/tuần, quy trình rõ, có dữ liệu trên LMS | Học sinh và phụ huynh có thật sự cần nhận xét chi tiết hơn, hay chỉ cần nhanh hơn? |
 | 3 | Báo cáo công việc tuần (#4) | Lặp cố định 1 lần/tuần, nguồn dữ liệu rõ (Git, Plane, Slack/Zalo) | Tech Lead đọc phần nào của báo cáo? Có thể chỉ cần danh sách task là đủ |
 
-Không chọn #3 (ôn thi DSA) và #5 (chuyển nơi ở) vì không lặp đều theo tuần và khó đo baseline trong thời gian lab.
 
 ### Problem Card #1 — Khoanh vùng bug kế toán PM_KT
 
