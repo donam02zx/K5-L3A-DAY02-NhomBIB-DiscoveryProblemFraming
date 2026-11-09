@@ -151,20 +151,20 @@ Quy trình nháp hiện tại:
 
 ---
 
-## 4. Tôi đã tham gia phần nào (CP3 → CP7)
+## 4. Em đã tham gia phần nào (CP3 → CP7)
 
-| Hoạt động | Tôi đã làm gì? | Kết   quả / ảnh hưởng tới bài nhóm |
+| Hoạt động | Em đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | Tôi pitch hai vấn đề: PM phải liên tục hỏi tiến độ và học viên khó tìm lại câu hỏi/câu trả lời cũ (pitch #9 và #10 trong báo cáo nhóm). | Nhóm có thêm hai candidate thuộc nhóm điều phối công việc và tìm lại kiến thức để so sánh khi hội tụ. |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: “Người dùng khó phát hiện lỗi, hay đã phát hiện nhưng không biết sửa ở đâu?” và “Vấn đề là thiếu nhắc tự động hay thành viên không có quy ước cập nhật rõ ràng?” | Giúp tách nguyên nhân thật của pain khỏi giả định rằng cần thêm công cụ hoặc tự động hóa. |
-| Nhận phản biện | Câu hỏi tôi nhận được: “Team đã có quy ước cập nhật tiến độ và một nơi quản lý task thống nhất chưa?” và “Học viên không tìm thấy, hay không biết từ khóa/cách tìm trước khi hỏi?” | Tôi đã sửa gì: bổ sung phương án không dùng AI bằng bảng theo dõi + quy ước cập nhật; với bài toán tìm câu hỏi cũ, tôi tách việc thiếu từ khóa khỏi việc chưa chủ động tìm và thêm phương án FAQ có phân loại. |
-| Gom cluster / cây OST | Tôi hỗ trợ gom các candidate theo pattern; hai pitch của tôi được xếp vào cluster B — tổng hợp thông tin để điều phối công việc và cluster C — tìm lại, biến kiến thức thành hành động. | Giúp nhóm nhìn các pain theo opportunity chung, tránh coi chatbot, AI Agent hoặc nền tảng là problem. |
-| Chọn candidate problem | Tôi cùng nhóm đối chiếu shortlist theo actor, quy trình, bằng chứng pain, impact, phạm vi lab và khả năng so sánh các mức can thiệp. | Nhóm chọn bài toán giáo viên tìm, đối chiếu và chọn tài liệu tiếng Anh vì actor và quy trình rõ, vừa sức kiểm chứng hơn; hai candidate của tôi không được chọn làm bài toán chung. |
+| Pitch Problem Card | Em trình bày hai vấn đề: PM phải liên tục hỏi tiến độ và học viên khó tìm lại câu hỏi, câu trả lời cũ. | Hai vấn đề này được ghi vào danh sách pitch chung ở vị trí #9 và #10. |
+| Phản biện bài của bạn khác | Em đặt hai câu hỏi: “Người dùng khó phát hiện lỗi, hay đã phát hiện nhưng không biết sửa ở đâu?” và “Vấn đề là thiếu nhắc tự động hay thành viên không có quy ước cập nhật rõ ràng?” | Các câu hỏi được ghi lại trong phần pitch của báo cáo nhóm. |
+| Nhận phản biện | Em nhận được hai câu hỏi: “Team đã có quy ước cập nhật tiến độ và một nơi quản lý task thống nhất chưa?” và “Học viên không tìm thấy, hay không biết từ khóa/cách tìm trước khi hỏi?” | Trong Problem Card hiện tại, em đã ghi rõ những điều còn chưa chắc và bổ sung phương án không dùng AI như bảng theo dõi tiến độ, quy ước cập nhật và trang FAQ. |
+| Gom cluster / cây OST | Em hỗ trợ phần hội tụ CP3. Hai vấn đề em pitch được xếp vào cluster B và cluster C trong báo cáo nhóm. | Các vấn đề được gom theo điểm chung thay vì tách thành những ý tưởng rời rạc. |
+| Chọn candidate problem | | |
 | Kiểm chứng / research | | |
 | Quy trình nhóm | | |
-| Problem Statement | Tôi hỗ trợ rà soát Problem Statement v1, đặc biệt phần success metric, boundary và tiêu chí đánh giá. | Problem Statement được thu hẹp vào việc giáo viên tìm, đối chiếu và chọn tài liệu; không để AI tự quyết định tài liệu dùng cho học sinh. |
-| Mức can thiệp AI | Tôi phụ trách đối chiếu No AI / Rule / Workflow / Agent, bổ sung AI Canvas và hai câu hỏi PAIR. Tôi đề xuất không đi thẳng lên Agent vì thứ tự các bước vẫn có thể định nghĩa trước. | Nhóm giữ Workflow hẹp để kiểm chứng: Rule lọc nguồn, công cụ hỗ trợ tóm tắt/so sánh có citation và giáo viên kiểm, chọn cuối cùng. No AI/Rule vẫn được giữ làm đối chứng. |
-| Quyết định | Tôi góp ý rằng bằng chứng hiện tại chưa đủ để kết luận cần xây một ứng dụng chuyên biệt và cần giữ human review. | Nhóm chọn `Not Yet`: chưa triển khai rộng, cần phỏng vấn/khảo sát và chạy đối chứng A/B/C trước khi quyết định. |
+| Problem Statement | Em hỗ trợ CP6 và rà soát Problem Statement v1 theo phần phân công trong `TEAM.md`. | Phần này được ghi lại ở mục 7 của báo cáo nhóm. |
+| Mức can thiệp AI | Em phụ trách đối chiếu bốn mức No AI, Rule, Workflow và Agent; đồng thời hỗ trợ phần AI Canvas và câu hỏi PAIR. | Nhóm đề xuất thử một Workflow hẹp, vẫn để giáo viên kiểm tra và quyết định cuối cùng; Agent không được chọn. |
+| Quyết định | | |
 
 ---
 
