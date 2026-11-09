@@ -172,12 +172,12 @@ Quy trình nháp hiện tại:
 
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
-| CP1 Scan | | | | |
-| CP2 Problem Card | | | | |
-| CP4 Research | | | | |
-| CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
+| CP1 Scan | Gợi ý thêm góc nhìn và diễn đạt job story dễ hiểu hơn | Giúp em diễn đạt tốt hơn , xác định rõ actor | Em có hỏi thử để tham khảo job story do AI đề xuất thì rất chung chung , chả để làm gì | Em không sửa gì  |
+| CP2 Problem Card | Em nhờ AI check xem lựa chọn top 3 của em như nào | Giúp em thêm thông tin về các problem card | AI không thực sự quá hiểu vấn đề | Em diễn đạt vấn đề , các độ đo 1 cách chi tiết hơn |
+| CP4 Research | Em dùng AI để đọc, tóm tắt và đối chiếu phần research của nhóm về các công cụ đối thủ | AI giúp em nhanh chóng nhìn ra thị trường đã có công cụ tương tự và nhóm cần so sánh với giải pháp sẵn có. | AI có thể nhầm research công khai |Em giữ kết luận rằng nhóm vẫn thiếu phỏng vấn hoặc khảo sát đúng yêu cầu và chưa thể dùng research để khẳng định người dùng cần sản phẩm mới. |
+| CP5 Quy trình | Em dùng AI để kiểm tra quy trình hiện tại và quy trình tương lai, xác định bước nào dùng Rule, bước nào AI hỗ trợ và bước nào con người quyết định. | AI giúp em nhìn rõ hơn bottleneck, boundary và vai trò kiểm tra cuối cùng của giáo viên. | AI có xu hướng mô tả quy trình chi tiết hơn dữ liệu thực tế mà nhóm có.| Em không dùng các con số chưa được đo |
+| CP5–6 Problem Statement | Em dùng AI để rà soát Problem Statement, success metric, boundary và tiêu chí đánh giá. |AI giúp em phát hiện metric cần có baseline, target và cách đo | AI đôi lúc mở rộng bài toán sang tạo học liệu, chấm bài hoặc xây một hệ thống lớn hơn bottleneck ban đầu.|Em giữ phạm vi ở việc giáo viên tìm, đối chiếu và chọn tài liệu bổ sung |
+| CP6 Mức can thiệp / quyết định | Em dùng AI để so sánh No AI, Rule, Workflow và Agent |AI giúp em hiểu rằng mức can thiệp phải dựa trên độ phức tạp và quyền tự quyết, không phải cứ có nhiều bước là cần Agent | Không rõ | Cả nhóm chưa thống nhất dùng gì|
 
 ---
 
@@ -186,19 +186,13 @@ Quy trình nháp hiện tại:
 Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
-
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
-
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
-
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
-
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
-
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
-
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
-
+Khi nghe về top 3 problem của các bạn khác em thấy mỗi người trong cuộc sống chúng ta đều có những vấn đề riêng khiến công việc hay cuộc sống của họ còn lãng phí thời gian không cần thiết. Nay cả nhóm em đã chọn được 1 problem tốt : có actor rõ , quy trình thật, bottlekneck cụ thể và kết quả đo được. Nhóm em ban đầu khi nghe một vấn đề đã ngay lập tức đi tìm giải pháp, em và các bạn nhận ra là mình phải thực sự làm rõ vấn đề đến từ đầu và ta có thể tối ưu nó ra sao từ những bước cơ bản nhất là no AI.Ban đầu nhóm có ý định dùng agent , em thì muốn đi từ các solution dễ hơn trước nhưng sau khi nhóm phản biện nếu tạo ra 1 agent thì nó sẽ tiện và tốt hơn rất nhiều.Điều làm em bất ngờ là đã có nhiều công cụ như MagicSchool, Diffit và các general agent có khả năng hỗ trợ giáo viên xử lý học liệu. Điều này khiến nhóm không thể mặc định rằng cứ xây thêm một ứng dụng AI là sẽ tạo ra giá trị. Research mới cho thấy giải pháp tương tự đã tồn tại, nhưng chưa chứng minh người dùng thật sự cần một Workflow riêng của nhóm. Em nghĩ điều khó nhất là tìm ra các metrics để đo lường , nhóm phải đo dược baseline hiện tại mới có thể kiểm tra được sự tiến bộ ( nếu có ). Nếu làm lại, em sẽ thu thập bằng chứng và đo baseline sớm hơn,em sẽ tập trung vào nguyên nhân của bottleneck, dữ liệu đầu vào và cách đánh giá kết quả thay vì chỉ bàn xem sản phẩm có thể có những tính năng nào.
 ---
 
 ## 7. Tài liệu tham khảo
