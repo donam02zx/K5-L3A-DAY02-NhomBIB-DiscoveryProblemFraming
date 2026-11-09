@@ -33,6 +33,7 @@
 | 2 | Tổng hợp và nhận xét bài tập MindX (#2) | Lặp đều 2 lần/tuần, quy trình rõ, có dữ liệu trên LMS | Học sinh và phụ huynh có thật sự cần nhận xét chi tiết hơn, hay chỉ cần nhanh hơn? |
 | 3 | Báo cáo công việc tuần (#4) | Lặp cố định 1 lần/tuần, nguồn dữ liệu rõ (Git, Plane, Slack/Zalo) | Tech Lead đọc phần nào của báo cáo? Có thể chỉ cần danh sách task là đủ |
 
+Không chọn #3 (ôn thi DSA) và #5 (chuyển nơi ở) vì không lặp đều theo tuần và khó đo baseline trong thời gian lab.
 
 ### Problem Card #1 — Khoanh vùng bug kế toán PM_KT
 
@@ -57,12 +58,51 @@ HIỆN TẠI — khoảng 100 phút/lần (ước lượng)
 → [4 Đọc schema + query DB: 20'] → [5 Khoanh vùng, ghi vào ticket: 10']
 ```
 
-Card #2 và #3 (tóm tắt):
+### Problem Card #2 — Tổng hợp và nhận xét bài tập MindX
 
-| Card | Actor | Bottleneck | Metric | Cảm nhận nhanh |
-|---|---|---|---|---|
-| Tổng hợp và nhận xét bài tập MindX | Giáo viên lập trình MindX, lớp 12–15 học sinh | Mở và chạy thử từng bài nộp để tìm lỗi: ~45 phút/buổi (ước lượng) | 75 → 30 phút/buổi | Rule (chấm tự động bằng test case) + Workflow |
-| Báo cáo công việc tuần | Backend developer báo cáo cho Tech Lead | Nhặt lại đầu việc từ Git, Plane, Slack/Zalo: ~35 phút/tuần (ước lượng) | 60 → 15 phút/tuần | Rule hoặc No AI (lọc task trên Plane + template) |
+| Trường | Nội dung |
+|---|---|
+| Job Story | Khi kết thúc buổi dạy lập trình, tôi muốn tổng hợp các lỗi sai phổ biến và mức độ hoàn thành bài tập của học sinh, để gửi nhận xét và chuẩn bị nội dung cho buổi học tiếp theo |
+| Actor | Giáo viên lập trình MindX phụ trách lớp 12–15 học sinh |
+| Thời điểm / bối cảnh | Sau mỗi buổi dạy, 2 buổi/tuần, trước khi soạn bài cho buổi tiếp theo |
+| Quy trình hiện tại | 1. Mở LMS, xem danh sách bài nộp · 2. Mở và chạy thử từng bài · 3. Đọc logic code tìm lỗi cú pháp/thuật toán · 4. Gom các lỗi phổ biến của cả lớp · 5. Viết nhận xét riêng cho từng học sinh trên LMS |
+| Bottleneck | Bước 2–3, mở, chạy thử và đọc code từng bài: khoảng 40–45 phút/buổi cho 12–15 bài (ước lượng) |
+| Impact | ~75 phút/buổi × 2 buổi/tuần ≈ 2,5 giờ/tuần (ước lượng); học sinh nhận phản hồi chậm, phụ huynh khó nắm tiến độ |
+| Success metric | Thời gian từ lúc mở LMS đến khi gửi xong nhận xét cho cả lớp: từ ~75 phút xuống ≤ 30 phút/buổi, đo bằng tự bấm giờ trong 4 tuần |
+| Phương án không dùng AI | Viết sẵn bộ test case cho mỗi bài tập để chạy tự động, báo đạt/không đạt; dùng mẫu nhận xét có sẵn theo các lỗi thường gặp |
+| Giả thuyết về AI | Từ kết quả chạy test và code của học sinh, AI soạn nháp nhận xét và gom lỗi phổ biến của lớp; giáo viên đọc, sửa và gửi |
+| Cảm nhận nhanh | Rule (chấm bằng test case) + Workflow (AI soạn nháp nhận xét) |
+
+```text
+HIỆN TẠI — khoảng 75 phút/buổi (ước lượng)
+
+[1 Mở LMS, xem bài nộp: 5'] → [2 Mở + chạy thử từng bài: 20']
+→ [3 Đọc code tìm lỗi: 20'] ← BOTTLENECK (cùng bước 2)
+→ [4 Gom lỗi phổ biến: 10'] → [5 Viết nhận xét từng học sinh: 20']
+```
+
+### Problem Card #3 — Báo cáo công việc tuần
+
+| Trường | Nội dung |
+|---|---|
+| Job Story | Khi đến chiều thứ Sáu hằng tuần, tôi muốn tổng hợp các việc đã hoàn thành, code đã đẩy lên và các điểm nghẽn trong tuần, để gửi báo cáo công việc cho người quản lý đúng hạn |
+| Actor | Backend developer dự án PM_KT gửi báo cáo tuần cho Tech Lead |
+| Thời điểm / bối cảnh | Chiều thứ Sáu hằng tuần, trước khi Tech Lead cập nhật tiến độ chung của team |
+| Quy trình hiện tại | 1. Xem lại lịch sử Git commit trong tuần · 2. Tra trạng thái task trên Plane · 3. Đọc lại tin nhắn Slack/Zalo để nhớ các điểm nghẽn · 4. Viết báo cáo theo mẫu · 5. Gửi cho Tech Lead |
+| Bottleneck | Bước 1–3, nhặt lại đầu việc từ 3 nguồn: khoảng 35 phút/tuần (ước lượng) |
+| Impact | ~60 phút/tuần cho 1 developer (ước lượng); nếu cả team cùng làm thì nhân theo số người; báo cáo trễ làm Tech Lead chậm cập nhật tiến độ |
+| Success metric | Thời gian làm báo cáo tuần: từ ~60 phút xuống ≤ 15 phút, đo bằng tự bấm giờ trong 4 tuần; Tech Lead không phải hỏi lại thông tin |
+| Phương án không dùng AI | Bộ lọc có sẵn trên Plane (task của tôi, cập nhật trong tuần) + lệnh `git log` theo tác giả và ngày + template báo cáo cố định; ghi chú điểm nghẽn ngay khi gặp trong tuần |
+| Giả thuyết về AI | Từ danh sách task và commit đã lọc, AI soạn nháp phần tóm tắt và điểm nghẽn; developer kiểm và gửi |
+| Cảm nhận nhanh | No AI hoặc Rule — lọc dữ liệu và template có thể đã đủ |
+
+```text
+HIỆN TẠI — khoảng 60 phút/tuần (ước lượng)
+
+[1 Xem Git commit: 10'] → [2 Tra task trên Plane: 10']
+→ [3 Đọc lại Slack/Zalo: 15'] ← BOTTLENECK (cùng bước 1–2)
+→ [4 Viết báo cáo: 20'] → [5 Gửi: 5']
+```
 
 **AI phản biện card #1:**
 
