@@ -184,10 +184,13 @@ Có. Thành viên khác trong nhóm phát hiện ra khi đặt câu hỏi ngư�
 Khi phản biện trong nhóm thì tôi không đổi ý nhưng khi mentor chỉ ra các điểm rủi ro, so sánh thực tế thì tôi có đổi ý. Ví dụ tại sao phải cần solution tổng hợp nguồn trong với ngôn ngữ tự nhiên là tiếng anh thì 1 số chatbot AI như Chatgpt có thể tự làm tốt chỉ với vài dòng lệnh ngắn và độ chính xác là xấp xỉ 90-99%.
 
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?** Có sau khi nghiên cứu, research kĩ lại thì có 1 số AI chatbot làm rất tốt, gen ra nhanh nếu prompt đúng nhưng từ đó tôi muốn định hướng sản phẩm theo 1 hướng khác 
+
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
 Có chắc chắn vấn đề đưa ra là điểm đau thật sự của người dùng hướng đến hay không và phải viết sao cho hợp lí.
+
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
 Nếu làm lại, tôi sẽ nghiên cứu kĩ hơn các sản phẩm đã có hiện nay có thể giải quyết vấn đề mà tôi đưa ra hay không và mình sẽ làm được cải tiến gì so với những sản phẩm hiện tại mà giúp cho người dùng.
+
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
 Bài nhóm em giải quyết vấn đề giáo viên tiếng Anh mất nhiều thời gian tìm kiếm, đối chiếu và chọn tài liệu bổ sung phù hợp với bài học và trình độ học sinh. Điểm nghẽn nằm ở bước đọc và chọn lọc nguồn, mất khoảng 20 phút cho mỗi đơn vị kiến thức. Metric đặt ra là giảm thời gian này xuống không quá 10 phút mà vẫn đảm bảo chất lượng tài liệu. Nhóm giới hạn phạm vi ở việc tìm kiếm và lựa chọn tài liệu, không mở rộng sang chấm bài hay tự động soạn giáo án. AI có thể hỗ trợ tìm kiếm, tổng hợp và phân loại tài liệu, nhưng chưa chứng minh được AI là cần thiết vì vẫn có thể dùng giải pháp lưu trữ và phân loại thông thường. Do đó, nhóm quyết định Not Yet, tiếp tục kiểm chứng vấn đề và đánh giá các giải pháp đơn giản hơn trước khi triển khai AI.
 
