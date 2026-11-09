@@ -6,10 +6,10 @@
 
 ## 1. Thông tin học viên
 
-- Họ tên:
-- MSSV:
+- Họ tên: Phạm Thị Hồng Ngọc
+- MSSV: 2A202603602
 - Email trường (không bắt buộc, repo có thể để public):
-- Tên nhóm:
+- Tên nhóm: NhomBIB
 - Link repo nhóm:
 
 ---
