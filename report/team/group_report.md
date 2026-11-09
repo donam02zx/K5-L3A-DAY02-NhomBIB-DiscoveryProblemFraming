@@ -24,9 +24,9 @@
 | 4 | Hồ Đức Mạnh | Khi nhận phương án bố trí, người dùng muốn biết đồ đạc có mở và sử dụng được ở vị trí mới không để tránh xung đột sau khi chuyển đồ. | Người dùng chuẩn bị áp dụng phương án bố trí | Kiểm tra cửa, tủ, ghế và yêu cầu sửa: khoảng 14 phút/phương án. | Trương Hoàng Tùng: “Các xung đột này có thể giải bằng quy tắc hình học thay vì AI không?” |
 | 5 | Hồ Anh Dũng | Khi buổi họp xong với khách hàng kết thúc, Business Analyst muốn việc chuyển từ ghi tú sẵn thành các task một cách nhanh chóng để gửi dev | Business Analyst, Dev | Thời gian tốn cho việc ghi chú từng task lên bằng cách gõ tay là khoảng ít nhất 1 tiếng| Hồ Đức Mạnh: "Thông tin mà bị thiếu là bị ảnh hưởng do ghi chú ban đầu hay do bước nhập tay thủ công từng chữ từ ghi chú thành task trên Trello? |
 | 6 | Hồ Anh Dũng | Khi đến hạn như 16h mỗi ngày, BA muốn những ai chưa hoàn thành công việc trên Trello được tư động nhắc nhở qua hệ thống để không cần phải tự nhắn riêng từng người qua zalo. | Business Analyst, Dev | Việc tự kiểm tra tiến độ và nhắn tin từng người qua zalo mất khoảng 20 phút/ngày. | Ngô Huy Hoàng: “Vấn đề của việc này ở đây là việc thiếu trong thông báo tự động nhắc hay là việc thành viên không có quy ước cập nhật cụ thể rõ ràng ?” |
-| 7 | Đỗ Phương Nam | Khi nhận bug kế toán, backend developer muốn truy xuất đúng luồng code và dữ liệu liên quan để khoanh vùng nguyên nhân thay vì dò nhiều package thủ công. | Backend developer, QA, người dùng kế toán | Đọc log, lần theo code Java/JPA và schema: 90–120 phút/lần, 3–4 lần/tuần (ước lượng). | Hồ Anh Dũng: “Có thể bắt đầu bằng chuẩn hóa log và liên kết ticket thay vì dùng AI đọc code không?” |
+| 7 | Đỗ Phương Nam | Khi nhận bug kế toán, backend developer muốn truy xuất đúng luồng code và dữ liệu liên quan để khoanh vùng nguyên nhân thay vì dò nhiều package thủ công. | Backend developer, QA, người dùng kế toán | Đọc log, lần theo code Java/JPA và schema: 90–120 phút/lần, 3–4 lần/tuần (ước lượng). | Hồ Anh Dũng: " Có thể thay vì dùng AI đọc code, bắt đầu bằng chuẩn hóa log và liên kết ticket không?” |
 | 8 | Đỗ Phương Nam | Khi kết thúc buổi dạy lập trình, giáo viên muốn tổng hợp lỗi sai và mức độ hoàn thành bài tập để gửi nhận xét và chuẩn bị buổi sau. | Giáo viên MindX, 12–15 học sinh, phụ huynh | Duyệt bài trên LMS và viết nhận xét thủ công: khoảng 75 phút/buổi, 2 lần/tuần (ước lượng). | Phạm Thị Hồng Ngọc: “Học sinh/phụ huynh cần nhận xét chi tiết hơn, hay chỉ cần nhận đúng hạn?” |
-| 9 | Ngô Huy Hoàng | Khi dự án đang thực hiện, PM muốn thành viên chủ động cập nhật tiến độ để phát hiện sớm việc nguy cơ trễ và điều chỉnh kế hoạch. | PM và cả team | PM phải liên tục nhắn hỏi; khó khăn thường chỉ được báo gần deadline. | Hồ Anh Dũng: “Team đã có quy ước cập nhật tiến độ và một nơi quản lý task thống nhất chưa?” |
+| 9 | Ngô Huy Hoàng | Khi dự án đang thực hiện, PM muốn thành viên chủ động cập nhật tiến độ để phát hiện sớm việc nguy cơ trễ và điều chỉnh kế hoạch. | PM và cả team | PM phải liên tục nhắn hỏi; khó khăn thường chỉ được báo gần deadline. | Hồ Anh Dũng: “Team đã có xây dựng quy ước rõ ràng về cách thức cập nhật tiến độ, tần suất báo cáo công việc và sử dụng một hệ thống quản lý task tập trung để đảm bảo mọi thành viên đều nắm được tình hình dự án hay chưa?” |
 | 10 | Ngô Huy Hoàng | Khi gặp vướng mắc trong học, học viên muốn tìm lại câu hỏi tương tự đã được giải đáp để không hỏi lại và chờ câu trả lời. | Học viên, lab coach | Câu trả lời cũ bị trôi trong nhóm chat; coach phải giải thích lại nhiều lần. | Đỗ Phương Nam: “Học viên không tìm thấy, hay không biết từ khóa/cách tìm trước khi hỏi?” |
 | 11 | Trương Hoàng Tùng | Khi người mới chơi game đối kháng thua lặp lại, họ muốn hiểu một lỗi ưu tiên và hành động luyện ngay để thử lại thay vì bỏ cuộc. | Người mới chơi game đối kháng | Chuyển replay/dữ liệu kỹ thuật thành một việc cần luyện; chưa có baseline thời gian đáng tin cậy. | Phạm Thị Hồng Ngọc: “Replay/tips có sẵn trong Tekken 8 hoặc Street Fighter 6 đã giải quyết pain này đến đâu?” |
 | 12 | Trương Hoàng Tùng | Khi người chơi mới bị thua bởi chiêu lạ, họ muốn tìm nhanh cách hóa giải sau trận để không phải tự mò trong Training Mode. | Người mới chơi game đối kháng | Tìm đúng chiêu và thiết lập bài luyện: 15–30 phút/tình huống theo trải nghiệm được ghi nhận. | Hồ Đức Mạnh: “Dữ liệu replay/video có đủ để xác định chính xác chiêu và input hay không?” |
@@ -45,21 +45,21 @@
 Gốc là **1 outcome**. Nhánh là **opportunity** (nhu cầu, pain), không phải tính năng hay công cụ.
 
 ```text
-OUTCOME: Giảm thời gian giáo viên tiếng Anh chuẩn bị tài liệu bổ sung
-         từ nguồn đáng tin, mà vẫn bảo đảm phù hợp chương trình và trình độ lớp.
-├── Opportunity A: Tìm được nguồn liên quan tới chủ điểm và mục tiêu bài học.
-├── Opportunity B: Đánh giá được độ tin cậy, mức độ và khả năng dùng của nguồn.
-└── Opportunity C: Tái sử dụng/tổng hợp nguồn đã được duyệt vào bài giảng mà không tìm lại từ đầu.
+OUTCOME: Giảm thời gian chuẩn bị tài liệu bổ sung (từ 40p xuống <25p) 
+         mà vẫn đảm bảo chất lượng, đúng trình độ của học sinh.
+├── Opportunity A (Tìm kiếm): "Tôi bị ngợp và mất thời gian vì có quá nhiều tài liệu không đúng, không bám sát giáo trình."
+├── Opportunity B (Đánh giá): "Tôi tốn công đọc dò từng chữ để xem tài liệu có phù hợp với trình độ/level của học sinh không."
+├── Opportunity C (Tái sử dụng): "Tôi khó quản lý và tìm lại các tài liệu cũ đã từng duyệt, thường xuyên phải đi tìm lại từ đầu."
+└── Opportunity D (Cắt gọt - Bổ sung mới): "Tài liệu tốt nhưng định dạng lộn xộn hoặc quá dài, tôi phải tốn công copy-paste, chỉnh sửa lại mới đưa vào file bài giảng được."
 ```
 
 **Chỉ số outcome đề xuất:** giảm bước đọc/đối chiếu/chọn từ khoảng 20 phút self-report xuống không quá 10 phút, không giảm chất lượng nguồn; cần đo lại baseline.
 
 Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 
-- “AI chấm bài tự luận” — là một chức năng khác, không giải quyết trực tiếp bottleneck tìm/chọn tài liệu của candidate #1.
-- “Chatbot tìm tài liệu”, “xây nền tảng học tập cho giáo viên” và “AI Agent tự soạn bài” — đều là giải pháp; nhóm chưa có bằng chứng rằng No AI/Rule không đủ.
-- “Tích hợp Azota/K12Online ngay” — là lựa chọn triển khai; chỉ cân nhắc sau research giải pháp có sẵn.
--
+- "AI chấm bài tự luận" / "Tự động tạo bài tập" — Đây là các tính năng (Features) phục vụ cho một giai đoạn hoàn toàn khác trong hành trình của giáo viên (Giai đoạn Đánh giá/Kiểm tra). Đưa vào sẽ gây loãng phạm vi (scope creep), không giải quyết trực tiếp bottleneck "tìm/chọn tài liệu bổ sung" của bài toán hiện tại.
+- "Chatbot tìm tài liệu" hay "AI Agent tự soạn bài" — Đây là các định dạng giải pháp (Solution format). Nhu cầu (Opportunity) thực sự ẩn bên dưới là "Làm sao để tôi lọc tài liệu nhanh mà không phải tự đọc từng trang?". Nhóm không vội chốt dùng Chatbot vì chưa có bằng chứng cho thấy các phương án rẻ hơn (như bộ lọc Rule-based hay UI tìm kiếm nâng cao) bị thất bại.
+- "Xây dựng nền tảng/cộng đồng học tập cho giáo viên" — Đây là một mô hình sản phẩm (Product Model) quá vĩ mô. Việc giải quyết pain-point chọn tài liệu không nhất thiết phải cần đến một "hệ sinh thái" hay "nền tảng".
 
 ### 2.4. Chấm điểm shortlist (1–5)
 
@@ -71,10 +71,9 @@ Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 
 **Candidate được chọn:** Khi chuẩn bị nội dung giảng dạy, giáo viên tiếng Anh mất thời gian tìm, đọc, đối chiếu và chọn tài liệu bổ sung phù hợp với chương trình và trình độ học sinh; nguồn phân tán nên giáo viên phải tự kiểm tra trước khi dùng.
 
-**Vì sao chọn:** Candidate có actor cụ thể, quy trình 6 bước và bottleneck đã được mô tả rõ: đọc/đối chiếu/chọn nguồn khoảng 20 phút cho mỗi đơn vị kiến thức theo self-report. Phạm vi có thể thu hẹp trong lab thành một giáo viên, một chủ điểm và một lần chuẩn bị bài. Nhóm cũng xác định được phương án không dùng AI là thư viện nguồn đã duyệt kèm checklist, nên có cơ sở so sánh trước khi đề xuất Workflow.
+**Vì sao chọn:** Candidate có actor cụ thể, quy trình 6 bước và bottleneck đã được mô tả rõ: đọc/đối chiếu/chọn nguồn khoảng 20 phút cho mỗi đơn vị kiến thức theo self-report. Phạm vi có thể thu hẹp trong lab thành một giáo viên, một chủ điểm và một lần chuẩn bị bài. Nhóm cũng xác định được phương án không dùng AI là thư viện nguồn đã duyệt kèm checklist, nên có cơ sở so sánh trước khi đề xuất Workflow. Ngoài ra, bài toán của giáo viên có Input và Output dạng Text/Document cực kỳ rõ ràng, đây là thế mạnh cốt lõi của LLM. Việc đo lường A/B testing (thời gian soạn bài có AI vs không có AI) cũng rất dễ thu thập số liệu ngay trong 1 tuần lab, thay vì phải đợi đo lường các hệ thống phức tạp như code/log bảo mật của bài bug kế toán."
 
-**Vì sao loại các candidate còn lại:** Candidate bug kế toán có impact/tần suất cao nhưng đòi hỏi quyền truy cập code, log, schema và dữ liệu nghiệp vụ; nhóm không đủ dữ liệu thật để kiểm chứng trong buổi lab. Candidate game đối kháng có problem rõ nhưng evidence hiện chủ yếu là social listening, cần nhiều phỏng vấn người chơi và còn bị cạnh tranh bởi replay/tips có sẵn trong game. Các candidate còn lại bị loại hoặc chưa vào shortlist vì thiếu baseline, CP2 chưa hoàn chỉnh, hoặc có phương án quy ước/quy trình đơn giản cần kiểm trước.
-
+**Vì sao loại các candidate còn lại:** Candidate bug kế toán có impact/tần suất cao nhưng đòi hỏi quyền truy cập code, log, schema và dữ liệu nghiệp vụ; nhóm không đủ dữ liệu thật để kiểm chứng trong buổi lab. Candidate game đối kháng có problem rõ nhưng evidence hiện chủ yếu là social listening, cần nhiều phỏng vấn người chơi và còn bị cạnh tranh bởi replay/tips có sẵn trong game. Các candidate còn lại bị loại hoặc chưa vào shortlist vì thiếu baseline, CP2 chưa hoàn chỉnh, hoặc có phương án quy ước/quy trình đơn giản cần kiểm trước. 
 
 **Xử lý bất đồng (nếu có):** Ban đầu có ý kiến mở rộng candidate thành “AI chấm tự luận/tạo bài tập” để khác biệt hơn. Nhóm thống nhất đây là solution-first và không cùng bottleneck với candidate đang chọn. Nhóm giữ phạm vi hẹp là tìm/đối chiếu/chọn nguồn, sau đó dùng CP4 để xác minh liệu thư viện nguồn + checklist đã đủ hay còn cần Workflow có AI.
 
@@ -89,7 +88,7 @@ Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 | # | Giả định | Loại (Value / Usability / Feasibility / Viability) | Quan trọng (1–5) | Đã có bằng chứng (1–5) | Kiểm chứng trước? |
 |---:|---|---|---:|---:|---|
 | 1 | Đọc, đối chiếu và chọn nguồn thực sự mất khoảng 20 phút/đơn vị kiến thức và là bước tốn công nhất. | Value | 5 | 2 | Có: ghi thời gian từng bước trong 3 lần chuẩn bị thật. |
-| 2 | Ít nhất 2–3 giáo viên ngoài nhóm gặp pain tương tự và chưa giải quyết đủ tốt bằng cách hiện tại. | Value | 5 | 1 | Có: phỏng vấn về lần chuẩn bị gần nhất; không hỏi ý định dùng sản phẩm. |
+| 2 | "Giáo viên tiếng Anh cảm thấy mệt mỏi và không hài lòng với kết quả tìm kiếm của Google hoặc General AI (như ChatGPT) vì chúng hay đưa tài liệu sai trình độ (level) hoặc không bám giáo trình." (Viết thế này để khi phỏng vấn, nếu giáo viên bảo "Tôi thấy dùng ChatGPT ngon mà", thì giả định này ngay lập tức bị Fail). |
 | 3 | Luồng chuyên biệt theo level giúp giáo viên làm việc tốt hơn một general agent với yêu cầu rõ ràng. | Viability | 5 | 1 | Ưu tiên: phản hồi giáo viên đang phản bác giả định này; phải so cùng tác vụ và input. |
 | 4 | Lợi ích lớn hơn công chuẩn bị, upload, gắn tag và cập nhật tài liệu. | Usability | 5 | 1 | Có: đo cả setup và chỉnh sửa, không chỉ thời gian model trả lời. |
 | 5 | Tóm tắt/so sánh có trích dẫn giúp chọn nguồn nhanh hơn mà không tăng nguồn sai hoặc không phù hợp. | Feasibility | 4 | 1 | Có: chấm 10 ca eval mẫu; sau đó thử với nguồn thật và giáo viên duyệt. |
@@ -185,7 +184,7 @@ Phương án đề xuất để thử nghiệm, chưa chứng minh vượt No AI
 ```text
 TƯƠNG LAI — 22 phút/lần (ngân sách kỳ vọng)
 [0. Upload, phân loại và gắn tag tài liệu vào Knowledge Base (KB): 10-15 phút/tuần]
-[1. Giáo viên chốt chủ điểm, level và yêu cầu nguồn: 3'] ← CON NGƯỜI
+→ [1. Giáo viên chốt chủ điểm, level và yêu cầu nguồn: 3'] ← CON NGƯỜI
 → [2. Lọc tối đa 3 nguồn đã được phép dùng theo tag: 1'] ← RULE
 → [3. Tóm tắt/so sánh nguồn, dẫn đoạn đối chiếu: 1'] ← AI TRONG WORKFLOW CỐ ĐỊNH
 → [4. Giáo viên mở nguồn, kiểm đúng/phù hợp và chọn: 8'] ← CON NGƯỜI / HITL
@@ -206,7 +205,7 @@ TƯƠNG LAI — 22 phút/lần (ngân sách kỳ vọng)
 | Tổng thời gian thao tác | 40 phút, mô phỏng | 22 phút; ngưỡng mục tiêu không quá 25 phút | Phải đo lại, gồm thời gian chờ và sửa; chưa tuyên bố tiết kiệm thực tế. |
 | Số bước thủ công | 6/6 | 3/5 | Người dạy vẫn chốt yêu cầu, kiểm/chọn nguồn và hoàn thiện. |
 | Bottleneck chính | Đọc/đối chiếu/đánh giá khoảng 20 phút, self-report | Lọc + so sánh + giáo viên kiểm không quá 10 phút, mục tiêu | 1 + 1 + 8 phút trong phương án đề xuất. |
-| Công setup/duy trì | Chưa đo | Chưa đo | Ghi cả hai bên; báo thời gian lần đầu và tái sử dụng, không chỉ thao tác thuận lợi. |
+| Công setup/duy trì | Gần như 0 | Phát sinh chi phí ẩn: Cần đo lường X phút/tuần để upload/gắn tag | Phải phân bổ chi phí thời gian này vào số lần tái sử dụng tài liệu để tính ROI |
 | Rủi ro mới phát sinh | Nguồn sai, không phù hợp do kiểm thủ công | Thêm suy diễn, dẫn nguồn sai và tin nhầm kết quả trôi chảy | Chặn bằng eval và giáo viên duyệt. |
 
 ---
@@ -220,8 +219,8 @@ Bản nháp theo self-report ban đầu; CP4 chưa đủ dữ liệu để chố
 | **Actor** | Giáo viên tiếng Anh tự chuẩn bị tài liệu bổ sung cho lớp mình phụ trách. |
 | **Quy trình** | Chốt mục tiêu → tìm nguồn → đọc/đối chiếu/đánh giá → chọn nguồn → tổng hợp Word → kiểm trước khi dạy. |
 | **Bottleneck** | Bước đọc, đối chiếu và đánh giá độ phù hợp của các nguồn, khoảng 20 phút/đơn vị kiến thức theo self-report. |
-| **Impact** | Tốn công chuẩn bị và kiểm lại; chưa có dữ liệu về số lần/tuần hoặc chất lượng bị ảnh hưởng nên không suy rộng thành tổng giờ toàn nhóm giáo viên. |
-| **Success Metric** (baseline → target, cách đo) | Mốc đọc/đối chiếu/chọn: 20 phút self-report → không quá 10 phút; tổng quy trình: 40 phút mô phỏng → không quá 25 phút. Bấm giờ ít nhất 3 lần chuẩn bị với tác vụ tương đương, tính cả review và phân bổ setup; giáo viên kiểm nguồn được dùng. |
+| **Impact** | "Giáo viên bị quá tải (overtime không lương) dẫn đến xu hướng 'tái chế' tài liệu cũ hoặc dùng tài liệu không sát trình độ học sinh để tiết kiệm thời gian. Hậu quả là chất lượng bài giảng giảm sút, học sinh nhàm chán." (Viết thế này thì các trung tâm tiếng Anh hoặc Ban giám hiệu mới giật mình và thấy đáng tiền để đầu tư giải pháp). |
+| **Success Metric** (baseline → target, cách đo) | Mốc đọc/đối chiếu/chọn: 20 phút self-report → không quá 10 phút; tổng quy trình: 40 phút mô phỏng → không quá 25 phút. Bấm giờ ít nhất 3 lần chuẩn bị với tác vụ tương đương, tính cả review và phân bổ setup; giáo viên kiểm nguồn được dùng. Không chỉ đo giảm thời gian (từ 20' xuống 10'), mà phải thêm chỉ số: Tỷ lệ chấp nhận lần đầu (First-time Acceptance Rate). Tức là: Ít nhất 80% tài liệu do AI so sánh/gợi ý được giáo viên giữ lại đưa vào Word mà không phải vứt đi tìm lại từ đầu. |
 | **Boundary** (AI không được làm gì; khi nào cần con người kiểm tra — HITL) | Không tự chốt hoặc phát học liệu; không bịa nguồn/nhận định; không dùng dữ liệu định danh học sinh. Giáo viên mở nguồn và kiểm đúng, phù hợp trước khi sử dụng. |
 
 **Phản biện nhận được và cách xử lý:**
