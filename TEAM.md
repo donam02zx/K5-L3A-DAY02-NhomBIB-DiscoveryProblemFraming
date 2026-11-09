@@ -72,7 +72,6 @@
 - Chuẩn hóa và tối ưu hóa luồng quy trình nghiệp vụ (As-Is / To-Be).
 - Phân tích rủi ro kinh doanh (Viability) và tinh chỉnh các chỉ số đo lường (Success Metrics, Before/After).
 
-
 **Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
 
 - Giai đoạn Pitch & OST: Đóng góp 2 Problem Cards (#5, #6) về nỗi đau tổng hợp thông tin/điều phối task của BA, làm cơ sở hình thành Cluster B. Đặt câu hỏi phản biện giúp team nhận ra nhiều bài toán chỉ cần sửa Quy ước (Rule) thay vì dùng AI.
@@ -85,6 +84,7 @@
 - Mục 3.1 & 8.1: Các đánh giá về rủi ro Viability và xác định LoFA (thời gian setup, khả năng chi trả của giáo viên).
 - Mục 4.1 & 4.2: Bản nháp quy trình đã được phân tách bước nghẽn và làm rõ các thao tác kiểm duyệt của con người (Human-in-the-loop).
 - Mục 4.3 & 5: Bảng so sánh Before/After và Success Metrics có chứa các chỉ số về chất lượng (Tỷ lệ chấp nhận tài liệu) và rủi ro thời gian setup.
+
 **Điều mình học được từ phần nhóm:**
 - Không vội "say đắm" giải pháp (Solution-first): Em nhận ra team làm Tech rất dễ sa đà vào việc nghĩ tính năng (AI chấm tự luận, app riêng) trước khi hiểu thấu đáo nỗi đau. Vai trò của BA là phải liên tục "kéo" team về lại thực tế bằng cách hỏi: "Người dùng có thực sự cần không? Quy trình tay hiện tại đã tối ưu chưa?".
 - Cẩn thận với "Chi phí ẩn" của AI: Một quy trình AI trông có vẻ giảm thời gian (từ 40 phút xuống 22 phút) nhưng lại sinh ra chi phí chuẩn bị dữ liệu (KB setup, upload, tag). Nếu công setup lớn hơn thời gian tiết kiệm được, dự án sẽ thất bại.
