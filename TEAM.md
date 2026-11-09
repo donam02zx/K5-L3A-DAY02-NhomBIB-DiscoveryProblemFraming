@@ -17,7 +17,7 @@
 | 3 | Hồ Đức Mạnh | 2A202603609 | Rà soát nguồn tham khảo và hỗ trợ ghi chép | hoducmanhtemperature |
 | 4 | Ngô Huy Hoàng | 2A202603622 | Phản biện và đối chiếu mức can thiệp | [Tự điền] |
 | 5 | Phạm Thị Hồng Ngọc | 2A202603602 | Kiểm chứng nhu cầu giáo viên | [Tự điền] |
-| 6 | Trương Hoàng Tùng | 2A202603651 | Rà soát rủi ro và quyết định | [Tự điền] |
+| 6 | Trương Hoàng Tùng | 2A202603651 | Rà soát rủi ro và quyết định | Dobit25 |
 
 ## Phân công theo checkpoint
 
@@ -131,16 +131,32 @@
 
 **Phần việc phụ trách:**
 
-- [Thành viên tự điền]
+- Đề xuất và pitch candidate về rào cản onboarding của người mới chơi game đối kháng.
+- Phản biện candidate được nhóm chọn để tránh solution-first.
+- Hỗ trợ research giải pháp có sẵn và so sánh No AI / Rule / Workflow / Agent.
 
 **Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
 
-- [Thành viên tự điền]
+- Chuẩn bị Problem Card về việc người mới chơi game đối kháng không chuyển được trận thua lặp lại thành một hành động luyện tập cụ thể.
+- Đặt câu hỏi phản biện về việc bổ sung AI chấm bài tự luận; từ phản biện này, nhóm nhận ra đây là một feature khác, không giải quyết trực tiếp bottleneck tìm, đối chiếu và chọn tài liệu.
+- Góp phần phân biệt opportunity với solution trong cây OST: chatbot, AI Agent, AI chấm tự luận và nền tảng học tập là solution, không phải pain của người dùng.
+- Research MagicSchool, Diffit, Azota/K12Online và phương án thư viện nguồn đã duyệt + checklist.
+- Góp ý hướng can thiệp: Rule lọc nguồn đã duyệt trước; chỉ cân nhắc Workflow AI để tóm tắt/so sánh nguồn có citation; không chọn Agent.
+- Góp ý boundary: AI không tự tìm nguồn ngoài whitelist, không bịa claim, không tự quyết định tài liệu dùng cho học sinh; giáo viên kiểm nguồn và quyết định cuối.
 
 **Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
 
-- [Thành viên tự điền]
+- `report/individual/2A202603651_TruongHoangTung.md`, mục 2–3: CP1, CP2, Problem Card game đối kháng và bảng phản biện AI.
+- `report/team/group_report.md`, mục 2.1: câu hỏi phản biện về AI chấm bài tự luận.
+- `report/team/group_report.md`, mục 2.3: phần loại các solution đội lốt opportunity.
+- `report/team/group_report.md`, mục 2.4: candidate game đối kháng trong shortlist và lý do không được chọn.
+- `report/team/group_report.md`, mục 3.3: research MagicSchool, Diffit và baseline thư viện nguồn + checklist.
+- `report/team/group_report.md`, mục 4.2–4.3: boundary, Rule/Workflow, human-in-the-loop và phương án quay về.
+- Commit: `[điền mã commit thật sau khi commit phần đóng góp của tôi]`.
 
 **Điều mình học được từ phần nhóm:**
 
-- [Thành viên tự điền]
+- Một idea có vẻ nhiều tiềm năng AI không tự động là candidate tốt; evidence, actor, quy trình và khả năng đo impact quan trọng hơn.
+- Candidate problem phải mô tả pain và bottleneck trước, không bắt đầu bằng feature như chatbot, AI Agent hay AI chấm bài.
+- Công cụ có sẵn như MagicSchool, Diffit, Azota và K12Online khiến nhóm phải kiểm chứng gap thực tế thay vì mặc định xây sản phẩm mới.
+- Không phải workflow nào có nhiều thông tin cũng cần Agent; với bài toán của nhóm, Rule và human review cần được chứng minh không đủ trước khi chọn Workflow.
