@@ -110,13 +110,12 @@
 - `group_report.md`: mục 2.1–2.4 (pitch, phản biện và hội tụ nhóm).
 - `group_report.md`: mục 6.2–6.4 (so sánh mức can thiệp, AI Canvas và PAIR).
 - `group_report.md`: mục 7 (Problem Statement v1 và tiêu chí đánh giá).
-- Commit cập nhật phần đóng góp cá nhân trong `TEAM.md`.
 
 **Điều mình học được từ phần nhóm:**
 
 - Em hiểu rõ hơn sự khác nhau giữa Workflow và Agent: nếu các bước và quy tắc đã xác định được thì chưa cần Agent.
 - Trước khi chọn giải pháp AI cần so sánh với phương án không AI, Rule và Workflow, đồng thời giữ con người ở bước quyết định quan trọng.
-- Khi bằng chứng kiểm chứng chưa đủ, quyết định hợp lý là `Not Yet` thay vì cố chốt giải pháp sớm.
+- Khi bằng chứng kiểm chứng chưa đủ, quyết định hợp lý là bàn luận thêm thay vì cố chốt giải pháp sớm.
 
 ### PhamThiHongNgoc-2A202603602
 
