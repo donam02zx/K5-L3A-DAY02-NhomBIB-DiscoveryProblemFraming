@@ -1,85 +1,89 @@
 ## 1. Thông tin học viên
 
-- **Họ tên:** Đỗ Phương Nam 
+- **Họ tên:** Đỗ Phương Nam
 - **MSSV:** 2A202603621
 - **Email trường** (không bắt buộc, repo có thể để public):
 - **Tên nhóm:** NhomBIB
 - **Link repo nhóm:** https://github.com/donam02zx/K5-L3A-DAY02-NhomBIB-DiscoveryProblemFraming
 
-## 2. CP1 — Scan 5+ problems · Discover
+## 2. Scan problem (CP1)
 
-> Các con số là em tự ghi nhận theo trí nhớ trong các tuần gần nhất, chưa đo bằng công cụ → ghi **(ước lượng)**.
+**Bối cảnh:** em là backend developer dự án ERP kế toán PM_KT (Java Spring Boot/JPA, PostgreSQL, quản lý ticket trên Plane), đồng thời dạy lập trình tại MindX và là sinh viên HCMUS. Em scan 5 problem, các con số là tự ghi nhận theo trí nhớ các tuần gần nhất, chưa bấm giờ thật nên ghi (ước lượng).
 
-### Problem 1: Xử lý và khoanh vùng bug hệ thống ERP (PM_KT)
+| # | Lăng kính | Job Story | Ai chịu ảnh hưởng? | Dấu hiệu thật |
+|---:|---|---|---|---|
+| 1 | Cần đọc, tổng hợp nhiều thông tin | Khi nhận thông báo bug kế toán trên dự án PM_KT, tôi muốn nhanh chóng truy xuất đúng luồng code và dữ liệu liên quan, để khoanh vùng vị trí gây lỗi mà không phải dò dẫm thủ công qua hàng chục package | Backend developer, QA, kế toán dùng hệ thống | 3–4 lần/tuần; 90–120 phút/lần để trace log và đọc 5–7 file Java/JPA cùng schema PostgreSQL (ước lượng); ghi nhận qua ticket bug trên Plane |
+| 2 | Lặp lại | Khi kết thúc buổi dạy lập trình, tôi muốn tổng hợp các lỗi sai phổ biến và mức độ hoàn thành bài tập của học sinh, để gửi nhận xét và chuẩn bị nội dung cho buổi học tiếp theo | Giáo viên MindX, 12–15 học sinh, phụ huynh | 2 lần/tuần; ~75 phút/buổi để duyệt bài nộp của 12–15 học sinh trên LMS và viết nhận xét thủ công (ước lượng) |
+| 3 | Cần đọc, tổng hợp nhiều thông tin | Khi chuẩn bị cho các kỳ thi Cấu trúc dữ liệu và Thuật toán (DSA), tôi muốn tổng hợp các dạng bài tập, mã nguồn mẫu và các lỗi sai về độ phức tạp từ tài liệu rải rác, để có bộ tài liệu ôn tập tập trung | Em, bạn trong nhóm học tập | 2–3 lần/học kỳ; 3–4 giờ/lần lục slide PDF và bài lab OnlineGDB cho 8–10 chủ đề chính (ước lượng) |
+| 4 | Lặp lại | Khi đến chiều thứ Sáu hằng tuần, tôi muốn tổng hợp các việc đã hoàn thành, code đã đẩy lên và các điểm nghẽn trong tuần, để gửi báo cáo công việc cho người quản lý đúng hạn | Backend developer, Tech Lead | 1 lần/tuần; ~60 phút xem lại lịch sử Git, tra task trên Plane, đọc lại tin nhắn Slack/Zalo (ước lượng) |
+| 5 | Tốn thời gian | Khi chuẩn bị chuyển nơi sinh sống và học tập sang thành phố mới, tôi muốn tổng hợp chi phí sinh hoạt, giá thuê nhà và các phương án di chuyển, để cân đối ngân sách cá nhân chính xác | Em, người thân đi cùng | Mỗi lần có kế hoạch di dời dài hạn; 4–5 giờ đọc bài viết, hội nhóm, trang web nhưng thông tin vẫn phân tán (ước lượng) |
 
-| Lăng kính | Phân tích |
+**AI gợi ý thêm:** sau khi tự scan 5 ý, em hỏi AI theo prompt mẫu. AI gợi ý thêm 3 ý; em không thêm dòng mới vì:
+- "QA báo lỗi thiếu bước tái hiện" → gộp vào #1, vì là một bước nhỏ trong quy trình xử lý bug, tách riêng sẽ đếm trùng thời gian.
+- "Biết học sinh yếu phần nào để soạn giáo án" → gộp vào #2, vì chính là vế "chuẩn bị nội dung buổi học tiếp theo".
+- "Trả lời phụ huynh hỏi tiến độ" → bỏ, vì em chưa đếm được số tin nhắn thật, và pain này đã nằm trong #2.
+
+## 3. Top 3 Problem Cards (CP2)
+
+| Rank | Problem | Vì sao chọn | Điều còn chưa chắc |
+|---:|---|---|---|
+| 1 | | | |
+| 2 | | | |
+| 3 | | | |
+
+### Problem Card #1 —
+
+| Trường | Nội dung |
 |---|---|
-| **Lặp lại** | Xảy ra liên tục mỗi tuần khi có thông báo lỗi từ hệ thống kế toán. |
-| **Tốn thời gian** | Mất nhiều thời gian mò mẫm qua hàng chục package code và cấu trúc bảng database phức tạp. |
-| **Cần đọc, tổng hợp nhiều thông tin** | Phải đọc hiểu đồng thời log hệ thống, mã nguồn Spring Boot/JPA và cấu trúc schema PostgreSQL. |
-| **Pain từ người khác** | Team kiểm thử (QA) và kế toán bị gián đoạn công việc khi tính năng bị lỗi. |
-| **Job Story** | Khi nhận thông báo bug kế toán trên dự án PM_KT, tôi muốn nhanh chóng truy xuất đúng luồng code và dữ liệu liên quan, để khoanh vùng vị trí gây lỗi mà không phải dò dẫm thủ công qua hàng chục package. |
-| **Dấu hiệu thật** | Xảy ra khoảng 3–4 lần/tuần; mất trung bình 90–120 phút cho mỗi lần trace log và đọc qua 5–7 file Java/JPA (ước lượng); được ghi nhận trực tiếp qua các ticket bug trên nền tảng Plane. |
+| Job Story | |
+| Actor | |
+| Thời điểm / bối cảnh | |
+| Quy trình hiện tại | |
+| Bottleneck | |
+| Impact | |
+| Success metric | |
+| Phương án không dùng AI | |
+| Giả thuyết về AI | |
+| Cảm nhận nhanh | |
 
----
+```text
+HIỆN TẠI — ___ phút
 
-### Problem 2: Tổng hợp và đánh giá bài tập học sinh tại MindX
+[1 ___: __'] → [2 ___: __'] → [3 ___: __'] → [4 ___: __']
+```
 
-| Lăng kính | Phân tích |
-|---|---|
-| **Lặp lại** | Lặp lại đều đặn sau mỗi buổi lên lớp (2 buổi/tuần). |
-| **Tốn thời gian** | Mất thời gian mở từng file bài nộp của học sinh để chạy thử và kiểm tra lỗi. |
-| **Cần đọc, tổng hợp nhiều thông tin** | Phải đọc logic code của từng học sinh để tìm ra các lỗi sai cú pháp/thuật toán phổ biến rồi viết nhận xét riêng. |
-| **Pain từ người khác** | Học sinh không nhận được phản hồi chi tiết kịp thời, phụ huynh muốn nắm tiến độ nhưng thông tin chậm. |
-| **Job Story** | Khi kết thúc buổi dạy lập trình, tôi muốn tổng hợp các lỗi sai phổ biến và mức độ hoàn thành bài tập của học sinh, để gửi nhận xét và chuẩn bị nội dung cho buổi học tiếp theo. |
-| **Dấu hiệu thật** | Diễn ra 2 lần/tuần; mất khoảng 75 phút sau mỗi buổi học để duyệt qua bài nộp của 12–15 học sinh trên LMS và viết nhận xét thủ công (ước lượng). |
+Card #2 và #3 (tóm tắt):
 
----
+| Card | Actor | Bottleneck | Metric | Cảm nhận nhanh |
+|---|---|---|---|---|
+| | | | | |
+| | | | | |
 
-### Problem 3: Hệ thống hoá tài liệu ôn tập Cấu trúc dữ liệu và Thuật toán (DSA)
+**AI phản biện card #1:**
 
-| Lăng kính | Phân tích |
-|---|---|
-| **Lặp lại** | Lặp lại trước mỗi đợt kiểm tra lớn hoặc kỳ thi kết thúc học phần tại HCMUS. |
-| **Tốn thời gian** | Tốn nhiều giờ đồng hồ tìm kiếm, lọc lại các tài liệu bị phân tán ở nhiều nơi. |
-| **Cần đọc, tổng hợp nhiều thông tin** | Phải đọc hàng loạt slide PDF bài giảng, mã nguồn C++ mẫu trên OnlineGDB và các ghi chú cá nhân để gom nhóm kiến thức. |
-| **Pain từ người khác** | Bạn bè trong nhóm học tập cũng gặp khó khăn khi tổng hợp các dạng bài tập và độ phức tạp thuật toán tương tự. |
-| **Job Story** | Khi chuẩn bị cho các kỳ thi Cấu trúc dữ liệu và Thuật toán (DSA), tôi muốn tổng hợp các dạng bài tập, mã nguồn mẫu và các lỗi sai về độ phức tạp từ tài liệu rải rác, để có bộ tài liệu ôn tập tập trung. |
-| **Dấu hiệu thật** | Xảy ra trước mỗi kỳ thi (2–3 lần/học kỳ); mất 3–4 tiếng lục lọi slide PDF và bài lab OnlineGDB cho 8–10 chủ đề chính (ước lượng). |
-
----
-
-### Problem 4: Lập báo cáo công việc tuần (Weekly Report)
-
-| Lăng kính | Phân tích |
-|---|---|
-| **Lặp lại** | Định kỳ đúng vào chiều thứ Sáu hằng tuần. |
-| **Tốn thời gian** | Mất thời gian nhớ lại và tìm kiếm lại các công việc đã làm trong tuần qua các công cụ khác nhau. |
-| **Cần đọc, tổng hợp nhiều thông tin** | Phải đọc lại lịch sử Git commit, kiểm tra trạng thái ticket trên Plane và lội lại tin nhắn nhóm chat trên Slack/Zalo. |
-| **Pain từ người khác** | Tech Lead cần báo cáo tổng hợp đúng giờ để cập nhật tiến độ chung của team. |
-| **Job Story** | Khi đến chiều thứ Sáu hằng tuần, tôi muốn tổng hợp các công việc đã hoàn thành, mã nguồn đã đẩy lên hệ thống và các điểm nghẽn trong tuần, để viết báo cáo công việc gửi người quản lý đúng hạn. |
-| **Dấu hiệu thật** | Diễn ra 1 lần/tuần cố định; mất khoảng 60 phút lội lịch sử Git, tra cứu task trên Plane và đọc lại tin nhắn để nhặt lại đầu việc (ước lượng). |
-
----
-
-### Problem 5: Thu thập thông tin và dự toán chi phí di chuyển, sinh hoạt khi chuyển chỗ ở
-
-| Lăng kính | Phân tích |
-|---|---|
-| **Lặp lại** | Xảy ra mỗi khi có kế hoạch thay đổi môi trường sống hoặc học tập sang thành phố mới. |
-| **Tốn thời gian** | Mất hàng giờ lướt qua nhiều hội nhóm và trang web để tìm kiếm dữ liệu. |
-| **Cần đọc, tổng hợp nhiều thông tin** | Phải đọc rất nhiều bài viết chia sẻ kinh nghiệm, bảng giá thuê nhà, chi phí đi lại từ nhiều nguồn không đồng nhất. |
-| **Pain từ người khác** | Các thành viên khác trong gia đình/nhóm đi cùng cũng hoang mang vì thiếu thông tin tổng quan. |
-| **Job Story** | Khi chuẩn bị thay đổi địa điểm sinh sống và học tập sang thành phố mới, tôi muốn tổng hợp chi phí sinh hoạt, giá thuê nhà và các phương án di chuyển, để cân đối ngân sách cá nhân chính xác. |
-| **Dấu hiệu thật** | Xảy ra khi có kế hoạch di dời dài hạn; mất khoảng 4–5 tiếng đọc qua nhiều bài viết, hội nhóm nhưng thông tin vẫn bị phân tán, khó đối chiếu (ước lượng). |
-
----
-
-### Ý gợi ý thêm từ AI (làm sau khi đã tự scan)
-
-| Ý AI gợi ý | Giữ / Bỏ | Lý do |
+| Điểm yếu AI chỉ ra | Đồng ý? | Đã sửa gì |
 |---|---|---|
-| Khi QA báo lỗi kế toán mà mô tả thiếu bước tái hiện, tôi muốn có đủ dữ liệu và bước tái hiện ngay trong ticket, để không phải hỏi lại | Gộp vào Problem 1 | Là một bước nhỏ trong quy trình xử lý bug của Problem 1, tách riêng sẽ đếm trùng thời gian |
-| Khi chuẩn bị giáo án buổi tiếp theo, tôi muốn biết học sinh đang yếu phần nào, để chọn bài tập phù hợp | Gộp vào Problem 2 | Chính là vế "chuẩn bị nội dung buổi học tiếp theo" của Problem 2 |
-| Khi phụ huynh hỏi tiến độ học của con, tôi muốn trả lời nhanh với thông tin cụ thể, để giữ niềm tin của phụ huynh | Bỏ | Em chưa đếm được số tin nhắn thật của phụ huynh; phần pain này đã nằm trong Problem 2 |
+| | | |
 
+## 4. Tôi đã tham gia phần nào
+
+| Hoạt động | Tôi đã làm gì? | Kết quả |
+|---|---|---|
+| Pitch Problem Card | | |
+| Phản biện bài bạn khác | | |
+| Nhận phản biện | | |
+| Kiểm chứng / research | | |
+| Quy trình nhóm | | |
+
+## 5. Dùng AI
+
+| Checkpoint | Dùng AI để làm gì? | Hữu ích ở đâu? | Sai/hời hợt ở đâu? | Tôi sửa gì |
+|---|---|---|---|---|
+| CP1 Scan | | | | |
+| CP2 Card | | | | |
+| CP4 Research | | | | |
+| CP5 Quy trình | | | | |
+
+## 6. Reflection
+
+>
