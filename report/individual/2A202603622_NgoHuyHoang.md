@@ -69,23 +69,6 @@ Quy trình nháp hiện tại:
         ↓
 [7. Hỗ trợ/chia lại việc nếu có rủi ro: 30–60']
 
-### Problem Card #2
-
-| Trường | Nội dung |
-|---|---|
-| Job Story | Khi gặp vướng mắc trong quá trình học hoặc làm lab, học viên muốn tìm lại những câu hỏi tương tự đã được giải đáp để có câu trả lời nhanh chóng, không phải hỏi lại và chờ người khác phản hồi.|
-| Actor | Học viên đang theo học chương trình AI tại VinUni. Actor phụ là Lab Coach và những học viên khác thường xuyên hỗ trợ giải đáp câu hỏi.|
-| Thời điểm / bối cảnh | Khi học viên đang xem bài giảng, làm lab hoặc chuẩn bị nộp bài và gặp một lỗi hay một yêu cầu chưa hiểu rõ. Đặc biệt khó khăn khi nhóm chat đã có nhiều tin nhắn mới và câu trả lời cũ bị trôi. |
-| Quy trình hiện tại  | 1. Học viên gặp một vấn đề trong quá trình học hoặc làm lab. · 2. Nhớ rằng vấn đề có thể đã từng được hỏi trong nhóm chat. · 3. Tìm kiếm bằng một vài từ khóa hoặc cuộn lại lịch sử tin nhắn. · 4. Mở và đọc nhiều đoạn hội thoại để kiểm tra có đúng ngữ cảnh hay không. · 5. Nếu không tìm thấy, học viên đăng lại câu hỏi trong nhóm. · 6. Chờ Lab Coach hoặc học viên khác phản hồi. · 7. Người trả lời giải thích lại hoặc gửi lại đường dẫn tới câu trả lời cũ.|
-| Bottleneck| Bước 3–4: học viên không nhớ chính xác từ khóa đã được sử dụng trong câu hỏi cũ, kết quả tìm kiếm chứa nhiều tin nhắn không liên quan và phải đọc lại từng đoạn hội thoại. Thời gian ước tính khoảng 5–15 phút mỗi lần tìm |
-| Impact| Làm gián đoạn quá trình học , chưa tối ưu thời gian|
-| Success metric  | Thời gian cần được đo thực tế và cần được giảm xuống mức tối thiểu, ít các học viên cùng hỏi 1 câu hỏi|
-| Phương án không dùng AI | Tạo một trang FAQ chung; phân loại câu hỏi theo buổi học và chủ đề; ghim mục lục trong nhóm chat; sau mỗi buổi, Lab Coach hoặc một thành viên tổng hợp những câu hỏi quan trọng cùng đường dẫn tới câu trả lời gốc. ( thực tế đã có 1 trang giải đáp thắc mắc nhưng mọi người không dùng do phải tạo ticket , học viên thường thích nhắn để hỏi hơn )  |
-| Giả thuyết về AI | AI có thể tìm kiếm theo ý nghĩa của câu hỏi thay vì yêu cầu học viên nhập đúng từ khóa, sau đó đưa ra các câu hỏi tương tự và trích dẫn câu trả lời gốc đã được Lab Coach xác nhận.|
-| Cảm nhận nhanh | Workflow |
-
-Quy trình nháp hiện tại:
-
 ### Problem Card #2 — Tìm lại câu hỏi và câu trả lời cũ
 
 | Trường | Nội dung |
@@ -142,9 +125,6 @@ HIỆN TẠI — ước tính 5–15 phút tìm kiếm
 | Cảm nhận nhanh | Workflow |
 
 Quy trình nháp hiện tại:
-
-HIỆN TẠI — khoảng 20–40 phút mỗi lần tổng hợp
-(cần đo lại bằng trải nghiệm thật)
 
 [1. Nhận tiền/xác định ngân sách đầu tháng: 5–10']
         ↓
