@@ -22,8 +22,8 @@
 | 2 | Phạm Thị Hồng Ngọc | Khi tạo đề ôn tập mới, giáo viên muốn kiểm tra câu hỏi/dạng bài đã dùng để hạn chế trùng lặp và bảo đảm bao phủ kiến thức. | Giáo viên tiếng Anh | Mở đề cũ, đối chiếu câu hỏi/dạng bài: khoảng 15–20 phút. | Đỗ Phương Nam: “Câu giống chữ hay câu kiểm tra cùng kiến thức nhưng diễn đạt khác mới được xem là trùng?” |
 | 3 | Hồ Đức Mạnh | Khi xem bản dựng sau quét phòng, người dùng mới muốn nhận ra đồ vật hoặc kích thước ghi sai để sửa trước khi dùng bố trí. | Người dùng mới của ứng dụng quét phòng | Đối chiếu bản dựng với phòng thật để tìm lỗi: ước lượng 7 phút trong phiên 25 phút. | Ngô Huy Hoàng: “Người dùng khó phát hiện lỗi, hay đã phát hiện nhưng không biết sửa ở đâu?” |
 | 4 | Hồ Đức Mạnh | Khi nhận phương án bố trí, người dùng muốn biết đồ đạc có mở và sử dụng được ở vị trí mới không để tránh xung đột sau khi chuyển đồ. | Người dùng chuẩn bị áp dụng phương án bố trí | Kiểm tra cửa, tủ, ghế và yêu cầu sửa: khoảng 14 phút/phương án. | Trương Hoàng Tùng: “Các xung đột này có thể giải bằng quy tắc hình học thay vì AI không?” |
-| 5 | Hồ Anh Dũng | Khi họp xong với khách hàng, Business Analyst muốn chuyển ghi chú yêu cầu thành các việc cụ thể trên Trello để gửi dev nhanh hơn. | Business Analyst, developer | Tổng hợp ghi chú và gõ task lên Trello: khoảng 1 giờ/cuộc họp. | Hồ Đức Mạnh: “Thông tin thiếu là do ghi chú ban đầu, hay do bước chuyển ghi chú thành task?” |
-| 6 | Hồ Anh Dũng | Khi đến 16h mỗi ngày, Business Analyst muốn biết ai chưa cập nhật Trello để không phải tự nhắn riêng từng người qua Zalo. | Business Analyst, developer | Tự kiểm tra và nhắn nhắc từng người: khoảng 20 phút/ngày. | Ngô Huy Hoàng: “Vấn đề là thiếu nhắc tự động hay thành viên không có quy ước cập nhật rõ ràng?” |
+| 5 | Hồ Anh Dũng | Khi buổi họp xong với khách hàng kết thúc, Business Analyst muốn việc chuyển từ ghi tú sẵn thành các task một cách nhanh chóng để gửi dev | Business Analyst, Dev | Thời gian tốn cho việc ghi chú từng task lên bằng cách gõ tay là khoảng ít nhất 1 tiếng| Hồ Đức Mạnh: "Thông tin mà bị thiếu là bị ảnh hưởng do ghi chú ban đầu hay do bước nhập tay thủ công từng chữ từ ghi chú thành task trên Trello? |
+| 6 | Hồ Anh Dũng | Khi đến hạn như 16h mỗi ngày, BA muốn những ai chưa hoàn thành công việc trên Trello được tư động nhắc nhở qua hệ thống để không cần phải tự nhắn riêng từng người qua zalo. | Business Analyst, Dev | Việc tự kiểm tra tiến độ và nhắn tin từng người qua zalo mất khoảng 20 phút/ngày. | Ngô Huy Hoàng: “Vấn đề của việc này ở đây là việc thiếu trong thông báo tự động nhắc hay là việc thành viên không có quy ước cập nhật cụ thể rõ ràng ?” |
 | 7 | Đỗ Phương Nam | Khi nhận bug kế toán, backend developer muốn truy xuất đúng luồng code và dữ liệu liên quan để khoanh vùng nguyên nhân thay vì dò nhiều package thủ công. | Backend developer, QA, người dùng kế toán | Đọc log, lần theo code Java/JPA và schema: 90–120 phút/lần, 3–4 lần/tuần (ước lượng). | Hồ Anh Dũng: “Có thể bắt đầu bằng chuẩn hóa log và liên kết ticket thay vì dùng AI đọc code không?” |
 | 8 | Đỗ Phương Nam | Khi kết thúc buổi dạy lập trình, giáo viên muốn tổng hợp lỗi sai và mức độ hoàn thành bài tập để gửi nhận xét và chuẩn bị buổi sau. | Giáo viên MindX, 12–15 học sinh, phụ huynh | Duyệt bài trên LMS và viết nhận xét thủ công: khoảng 75 phút/buổi, 2 lần/tuần (ước lượng). | Phạm Thị Hồng Ngọc: “Học sinh/phụ huynh cần nhận xét chi tiết hơn, hay chỉ cần nhận đúng hạn?” |
 | 9 | Ngô Huy Hoàng | Khi dự án đang thực hiện, PM muốn thành viên chủ động cập nhật tiến độ để phát hiện sớm việc nguy cơ trễ và điều chỉnh kế hoạch. | PM và cả team | PM phải liên tục nhắn hỏi; khó khăn thường chỉ được báo gần deadline. | Hồ Anh Dũng: “Team đã có quy ước cập nhật tiến độ và một nơi quản lý task thống nhất chưa?” |
@@ -99,7 +99,7 @@ Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 
 ### 3.2. Kiểm chứng
 
-**Cách đã dùng:** đối chiếu self-report trong bài cá nhân; ghi nhận phản hồi giáo viên do Hồ Đức Mạnh chuyển lại; research tài liệu chính thức. Phản hồi giáo viên chủ yếu đánh giá hướng công cụ ra đề tiếng Anh, chưa phải một cuộc phỏng vấn hành vi đầy đủ cho pain tìm/chọn tài liệu.
+**Cách đã dùng:** đối chiếu self-report trong bài cá nhân; ghi nhận phản hồi giáo viên do Hồ Đức Mạnh chuyển lại; research tài liệu chính thức. Phản hồi giáo viên chủ yếu đánh giá hướng công cụ ra đề tiếng Anh, chưa phải một cuộc phỏng vấn hành vi đầy đủ cho pain tìm/chọn tài liệu. 
 
 **Trạng thái yêu cầu CP4:** Chưa có đủ 2–3 interview snapshot hoặc survey 5–10 người. Không tính desk research hay một ý kiến đánh giá sản phẩm thay cho yêu cầu này.
 
@@ -184,7 +184,7 @@ Phương án đề xuất để thử nghiệm, chưa chứng minh vượt No AI
 
 ```text
 TƯƠNG LAI — 22 phút/lần (ngân sách kỳ vọng)
-
+[0. Upload, phân loại và gắn tag tài liệu vào Knowledge Base (KB): 10-15 phút/tuần]
 [1. Giáo viên chốt chủ điểm, level và yêu cầu nguồn: 3'] ← CON NGƯỜI
 → [2. Lọc tối đa 3 nguồn đã được phép dùng theo tag: 1'] ← RULE
 → [3. Tóm tắt/so sánh nguồn, dẫn đoạn đối chiếu: 1'] ← AI TRONG WORKFLOW CỐ ĐỊNH
@@ -354,7 +354,7 @@ Khi chạy, chấm từng output theo C1–C5 là Đạt/Không đạt và lưu 
 | **Value** | Người dùng có thật sự cần và sẽ dùng không? | **Cao** | Có một self-report nhưng chưa đủ phỏng vấn hành vi. Phản hồi giáo viên chưa thấy giá trị khác biệt; chưa biết pain lớn nhất và cách hiện tại đã đủ chưa. |
 | **Usability** | Người dùng có dùng được, có hiểu và sửa được đầu ra của AI không? | **Trung bình** | Luồng có thể dùng công cụ sẵn, nhưng KB/upload/kiểm nguồn thêm thao tác. Chưa có quan sát sử dụng; phải tính tổng công. |
 | **Feasibility** | Có đủ dữ liệu, công cụ, kỹ năng để làm không? | **Trung bình** | Research xác nhận có công cụ xử lý học liệu/nguồn. Tuy nhiên chưa có corpus lớp được giáo viên duyệt, chưa chạy eval và chưa xác minh khả năng đọc đúng tài liệu trong điều kiện dùng thực tế. |
-| **Viability** | Có hợp chi phí, pháp lý, quy định tổ chức không? Ai vận hành? | **Cao** | Giáo viên cho rằng general agent đã làm được tương tự. Chưa có bằng chứng trả tiền, lợi ích vượt setup hoặc ngân sách. Quyền dùng tài liệu và người duy trì thư viện chưa chốt. |
+| **Viability** | Có hợp chi phí, pháp lý, quy định tổ chức không? Ai vận hành? | **Cao** | Giáo viên cho rằng general agent đã làm được tương tự. Chưa có bằng chứng trả tiền, lợi ích vượt setup hoặc ngân sách. Quyền dùng tài liệu và người duy trì thư viện chưa chốt. Cần làm rõ Giáo viên có sẵn sàng trả tiền cho một công cụ chuyên biệt (ví dụ 100k-200k/tháng) hay không, trong khi họ có thể dùng bản miễn phí của ChatGPT/Claude để làm điều tương tự? Nếu tệp khách hàng không sẵn sàng chi trả, dự án không có tính thương mại. |
 
 ### 8.2. Kết luận
 
