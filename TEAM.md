@@ -57,6 +57,7 @@
 - `report/individual/2A202603621_DoPhuongNam.md`, mục 2–4: CP1, CP2 và phần tham gia nhóm.
 - về phần commit do có 1 file làm chung nên 1 bạn đại diện làm nên file group_report.md không có commit
 
+
 **Điều mình học được từ phần nhóm:**
 
 - Problem có tần suất và impact cao chưa chắc là candidate tốt nhất cho nhóm: card bug PM_KT của em có số liệu rõ nhưng bị loại vì nhóm không có quyền truy cập code, log và dữ liệu để kiểm chứng trong buổi lab.
