@@ -10,7 +10,7 @@
 - MSSV: 2A202603602
 - Email trường (không bắt buộc, repo có thể để public):
 - Tên nhóm: NhomBIB
-- Link repo nhóm:
+- Link repo nhóm: https://github.com/donam02zx/K5-L3A-DAY02-NhomBIB-DiscoveryProblemFraming/tree/main
 
 ---
 
