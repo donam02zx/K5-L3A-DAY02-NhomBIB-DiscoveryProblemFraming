@@ -137,15 +137,17 @@ Quy trình nháp hiện tại:
 
 ### Card muốn pitch nhất
 
-- Card số:
-- Vì sao:
-- Câu hỏi muốn nhóm phản biện:
+- Card số: **#1 — PM phải liên tục hỏi tiến độ**
+- Vì sao: Đây là pain em trực tiếp gặp khi làm PM trong dự án 6 tuần, lặp lại trước các buổi họp/checkpoint và có thể đo bằng thời gian PM tổng hợp tiến độ, số lần phải nhắn hỏi và số rủi ro được phát hiện muộn.
+- Câu hỏi muốn nhóm phản biện: Nếu chỉ thống nhất quy ước cập nhật tiến độ định kỳ và dùng một spreadsheet/Trello chung thì pain đã được giải quyết đủ chưa, hay vẫn còn bước tổng hợp và cảnh báo rủi ro cần Workflow hỗ trợ?
 
 ### AI đã phản biện card thế nào
 
 | Điểm yếu AI chỉ ra | Đồng ý? | Đã sửa gì |
 |---|---|---|
-| | | |
+| Chưa biết nguyên nhân chính là thiếu công cụ hay thành viên chưa có quy ước cập nhật rõ ràng. | Có | Bổ sung điều còn chưa chắc và đưa phương án không dùng AI: thống nhất thời điểm cập nhật cùng một bảng theo dõi chung. |
+| Success metric còn mơ hồ, chưa có baseline và cách đo cụ thể. | Có | Chuyển sang các chỉ số có thể đo: thời gian PM tổng hợp tiến độ, số lần PM phải chủ động hỏi và số đầu việc được báo rủi ro trước deadline; ghi rõ baseline cần đo thực tế. |
+| Giả thuyết AI đang đi hơi nhanh sang dự đoán trễ hạn khi dữ liệu tiến độ chưa chắc đầy đủ. | Có | Hạ mức can thiệp xuống Workflow: trước hết tổng hợp trạng thái và nhắc thiếu cập nhật; chỉ cảnh báo rủi ro từ dữ liệu có nguồn, PM vẫn là người quyết định hỗ trợ hoặc chia lại việc. |
 
 ---
 
