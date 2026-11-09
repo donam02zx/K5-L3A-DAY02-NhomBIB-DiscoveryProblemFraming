@@ -159,9 +159,9 @@ Quy trình nháp hiện tại:
 | Phản biện bài của bạn khác | Em đặt hai câu hỏi: “Người dùng khó phát hiện lỗi, hay đã phát hiện nhưng không biết sửa ở đâu?” và “Vấn đề là thiếu nhắc tự động hay thành viên không có quy ước cập nhật rõ ràng?” | Các câu hỏi được ghi lại trong phần pitch của báo cáo nhóm. |
 | Nhận phản biện | Em nhận được hai câu hỏi: “Team đã có quy ước cập nhật tiến độ và một nơi quản lý task thống nhất chưa?” và “Học viên không tìm thấy, hay không biết từ khóa/cách tìm trước khi hỏi?” | Trong Problem Card hiện tại, em đã ghi rõ những điều còn chưa chắc và bổ sung phương án không dùng AI như bảng theo dõi tiến độ, quy ước cập nhật và trang FAQ. |
 | Gom cluster / cây OST | Em hỗ trợ phần hội tụ CP3. Hai vấn đề em pitch được xếp vào cluster B và cluster C trong báo cáo nhóm. | Các vấn đề được gom theo điểm chung thay vì tách thành những ý tưởng rời rạc. |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
+| Chọn candidate problem | Em cùng nhóm xem lại các candidate trong shortlist và so sánh theo độ rõ của actor, quy trình, pain, khả năng đo lường và phạm vi của bài lab. | Nhóm chọn vấn đề giáo viên mất thời gian tìm, đối chiếu và chọn tài liệu tiếng Anh vì vấn đề này có quy trình và bottleneck rõ hơn các candidate còn lại. |
+| Kiểm chứng / research | Em đọc và đối chiếu phần research về MagicSchool, Diffit, Azota/K12Online cùng những phản hồi ban đầu mà nhóm thu thập được để phục vụ phần CP6. | Em nhận ra thị trường đã có nhiều công cụ tương tự nên nhóm chưa thể khẳng định cần xây một sản phẩm mới; cần so sánh thêm với phương án không AI, Rule và general agent. |
+| Quy trình nhóm | Em xem lại quy trình hiện tại và quy trình tương lai của nhóm, chú ý bước nào dùng Rule, bước nào AI hỗ trợ và bước nào giáo viên vẫn phải tự kiểm tra. | Nhóm giữ giáo viên ở bước kiểm tra và quyết định cuối cùng, đồng thời có phương án quay lại quy trình cũ nếu kết quả hỗ trợ không đáng tin cậy. |
 | Problem Statement | Em hỗ trợ CP6 và rà soát Problem Statement v1 theo phần phân công trong `TEAM.md`. | Phần này được ghi lại ở mục 7 của báo cáo nhóm. |
 | Mức can thiệp AI | Em phụ trách đối chiếu bốn mức No AI, Rule, Workflow và Agent; đồng thời hỗ trợ phần AI Canvas và câu hỏi PAIR. | Nhóm đề xuất thử một Workflow hẹp, vẫn để giáo viên kiểm tra và quyết định cuối cùng; Agent không được chọn. |
 | Quyết định | | |
