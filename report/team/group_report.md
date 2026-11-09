@@ -5,10 +5,10 @@
 
 ## 1. Thông tin nhóm
 
-- Tên nhóm:
+- Tên nhóm: BIB
 - Thành viên: xem `TEAM.md`
-- Candidate problem được chọn (1 câu):
-- Quyết định cuối: Go / Not Yet / No-Go
+- Candidate problem được chọn (1 câu): Khi chuẩn bị bài tiếng Anh, giáo viên muốn tìm và chọn tài liệu bổ sung phù hợp để hoàn thiện bài giảng. | Giáo viên tiếng Anh | Đọc, đối chiếu và chọn nguồn: self-report ~20 phút/đơn vị kiến thức. 
+- Quyết định cuối: Go / Not Yet / No-Go: Not Yet
 
 ---
 
@@ -18,7 +18,7 @@
 
 | # | Người đưa ra | Candidate (Job Story ngắn) | Actor | Bottleneck | Câu hỏi phản biện nhận được (ai hỏi) |
 |---:|---|---|---|---|---|
-| 1 | | | | | |
+| 1 | Phạm Thị Hồng Ngọc| Khi chuẩn bị bài tiếng Anh, giáo viên muốn tìm và chọn tài liệu bổ sung phù hợp để hoàn thiện bài giảng. | Giáo viên tiếng Anh| Đọc, đối chiếu và chọn nguồn: self-report ~20 phút/đơn vị kiến thức.| Trương Hoàng Tùng: Có thể bổ sung thêm tính năng chấm bài kiểm tra tự luận nhờ AI hay không vì sản phẩm hiện tại khó cạnh tranh|
 | 2 | | | | | |
 | 3 | | | | | |
 | 4 | | | | | |
@@ -78,12 +78,10 @@ Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 
 | # | Giả định | Loại (Value / Usability / Feasibility / Viability) | Quan trọng (1–5) | Đã có bằng chứng (1–5) | Kiểm chứng trước? |
 |---:|---|---|---:|---:|---|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
-| 6 | | | | | |
+| 1 | Giáo viên thực sự mất khoảng 20 phút/đơn vị kiến thức ở bước đọc/đối chiếu/chọn nguồn.| Value| 5| 2| Có: Thống kê những lần soạn đề trước đó|
+| 2 | Giáo viên khác Huyền cũng gặp pain này, không chỉ là thói quen cá nhân.| Value| 5| 1| Có: Phỏng vấn 2–3 giáo viên khác |
+| 3 | Kiểm chứng độ phù hợp của tài liệu, không chỉ là tìm link.| Usability| 5| 1| Có: Các nguồn cuối có phù hợp với năng lực của nhóm học sinh được hướng tới không|
+| 4 | AI có thể gợi ý tài liệu có dẫn nguồn mà không bịa hoặc sai trình độ.| Feasibility| 4| 1| Chấm thử 3–5 truy vấn bằng rubric nguồn/phù hợp, có giáo viên duyệt.|
 
 *Điền 4–6 giả định; xóa dòng thừa.*
 
