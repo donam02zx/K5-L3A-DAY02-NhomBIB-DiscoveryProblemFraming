@@ -191,8 +191,9 @@ Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ ch
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
-**6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
 Khi nghe về top 3 problem của các bạn khác em thấy mỗi người trong cuộc sống chúng ta đều có những vấn đề riêng khiến công việc hay cuộc sống của họ còn lãng phí thời gian không cần thiết. Nay cả nhóm em đã chọn được 1 problem tốt : có actor rõ , quy trình thật, bottlekneck cụ thể và kết quả đo được. Nhóm em ban đầu khi nghe một vấn đề đã ngay lập tức đi tìm giải pháp, em và các bạn nhận ra là mình phải thực sự làm rõ vấn đề đến từ đầu và ta có thể tối ưu nó ra sao từ những bước cơ bản nhất là no AI.Ban đầu nhóm có ý định dùng agent , em thì muốn đi từ các solution dễ hơn trước nhưng sau khi nhóm phản biện nếu tạo ra 1 agent thì nó sẽ tiện và tốt hơn rất nhiều.Điều làm em bất ngờ là đã có nhiều công cụ như MagicSchool, Diffit và các general agent có khả năng hỗ trợ giáo viên xử lý học liệu. Điều này khiến nhóm không thể mặc định rằng cứ xây thêm một ứng dụng AI là sẽ tạo ra giá trị. Research mới cho thấy giải pháp tương tự đã tồn tại, nhưng chưa chứng minh người dùng thật sự cần một Workflow riêng của nhóm. Em nghĩ điều khó nhất là tìm ra các metrics để đo lường , nhóm phải đo dược baseline hiện tại mới có thể kiểm tra được sự tiến bộ ( nếu có ). Nếu làm lại, em sẽ thu thập bằng chứng và đo baseline sớm hơn,em sẽ tập trung vào nguyên nhân của bottleneck, dữ liệu đầu vào và cách đánh giá kết quả thay vì chỉ bàn xem sản phẩm có thể có những tính năng nào.
+
+**6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
 ---
 
 ## 7. Tài liệu tham khảo
