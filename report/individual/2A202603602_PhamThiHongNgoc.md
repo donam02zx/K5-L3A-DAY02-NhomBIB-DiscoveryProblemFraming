@@ -143,16 +143,17 @@ BOTTLENECK: Tốn khoảng 15–20 phút để rà soát đề cũ
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+|---|---|---|
+| Pitch Problem Card | Trình bày các Problem Card đã xây dựng, giải thích bối cảnh chuẩn bị bài tiếng Anh, nhu cầu tìm kiếm tài liệu bổ sung và bottleneck trong quá trình đọc, đối chiếu, chọn nguồn. | Giúp nhóm hiểu các vấn đề tôi đề xuất và có cơ sở để thảo luận, phản biện, lựa chọn candidate phù hợp. |
+| Phản biện bài của bạn khác | Đặt câu hỏi cho Candidate #8 của Đỗ Phương Nam: “Học sinh/phụ huynh cần nhận xét chi tiết hơn, hay chỉ cần nhận đúng hạn?” | Gợi mở việc xác định nhu cầu thực sự của người nhận nhận xét, tránh mặc định rằng nhận xét càng chi tiết thì càng có giá trị. |
+| Nhận phản biện | Nhận câu hỏi từ Trương Hoàng Tùng về khả năng bổ sung tính năng AI chấm bài kiểm tra tự luận để tăng khả năng cạnh tranh của sản phẩm. | Nhận ra cần phân biệt vấn đề cốt lõi với các tính năng mở rộng. Tôi giữ trọng tâm ở việc tìm kiếm, đối chiếu và chọn tài liệu, không mở rộng sang chấm bài tự luận vì chưa có bằng chứng về nhu cầu này. |
+| Gom cluster / cây OST | Tham gia phân nhóm candidate vào Cluster A — Chuẩn bị/nâng chất lượng học liệu. Cùng nhóm phát triển OST với một Outcome và ba Opportunity: tìm nguồn liên quan; đánh giá độ tin cậy, mức độ và khả năng sử dụng; tái sử dụng hoặc tổng hợp nguồn đã duyệt. | Giúp chuyển từ một vấn đề ban đầu thành các nhu cầu cụ thể hơn, đồng thời tránh nhầm lẫn giữa Opportunity với giải pháp hoặc tính năng AI. |
+| Chọn candidate problem | Đề xuất và cùng nhóm lựa chọn Candidate #1 của tôi: giáo viên cần tìm, đối chiếu và chọn tài liệu bổ sung phù hợp với mục tiêu bài học và trình độ lớp. | Vấn đề được nhóm chọn để tiếp tục nghiên cứu và đánh giá ở các checkpoint tiếp theo. |
+| Kiểm chứng / research | Tham gia xem xét bằng chứng ban đầu về thời gian tìm kiếm, đọc, đối chiếu và chọn lọc tài liệu; xác định những thông tin còn thiếu cần kiểm chứng. | Ghi nhận thời gian self-report khoảng 20 phút/đơn vị kiến thức. Tuy nhiên, cần đo lại baseline và bổ sung bằng chứng về tần suất, mức độ ảnh hưởng cũng như chất lượng nguồn tài liệu. |
+| Quy trình nhóm | Tham gia làm rõ quy trình hiện tại: xác định chủ điểm → tìm kiếm tài liệu → đọc, đối chiếu nhiều nguồn → chọn lọc nội dung → điều chỉnh theo trình độ học sinh → tổng hợp vào Word. | Xác định công đoạn đọc, đối chiếu và lựa chọn nguồn là bottleneck cần tập trung nghiên cứu. |
+| Problem Statement | Tham gia hoàn thiện Problem Statement theo hướng: “Khi chuẩn bị bài tiếng Anh, giáo viên muốn tìm, đối chiếu và chọn tài liệu bổ sung phù hợp với mục tiêu và trình độ lớp để hoàn thiện bài giảng.” | Giúp nhóm thống nhất phạm vi vấn đề, tập trung vào nhu cầu của giáo viên thay vì mô tả trước một giải pháp cụ thể. |
+| Mức can thiệp AI | Cùng nhóm xem xét khả năng AI hỗ trợ tìm kiếm, tổng hợp và phân loại tài liệu; đồng thời cân nhắc phương án không dùng AI như lưu trữ, phân loại và tái sử dụng nguồn tài liệu đã được duyệt. | Nhận diện được các công đoạn AI có thể hỗ trợ nhưng chưa đủ cơ sở để khẳng định cần xây dựng một giải pháp AI chuyên biệt. |
+| Quyết định | Tham gia đánh giá bằng chứng và thống nhất quyết định **Not Yet**. | Chưa xây dựng hoặc triển khai giải pháp chuyên biệt. Cần kiểm chứng thêm nhu cầu, đo lại baseline và đánh giá khả năng đáp ứng bằng các phương án đơn giản hơn trước khi quyết định. |
 
 ---
 
@@ -160,12 +161,12 @@ BOTTLENECK: Tốn khoảng 15–20 phút để rà soát đề cũ
 
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
-| CP1 Scan | | | | |
-| CP2 Problem Card | | | | |
-| CP4 Research | | | | |
-| CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
+| CP1 Scan | Hỗ trợ nhận diện pain point trong quy trình chuẩn bị bài, tìm kiếm tài liệu và tạo đề kiểm tra; diễn đạt các vấn đề thành Job Story. | Gợi ý nhiều góc nhìn để phát hiện vấn đề và chuẩn hóa cách trình bày. | Một số vấn đề còn thiên về mô tả công việc, chưa thể hiện rõ bottleneck hoặc bằng chứng thực tế. | Chọn lọc lại các vấn đề có khó khăn cụ thể; phân biệt nhu cầu của giáo viên với nhu cầu của học sinh và bổ sung số liệu theo thông tin hiện có. |
+| CP2 Problem Card | Hỗ trợ xây dựng Job Story, quy trình hiện tại, bottleneck, tác động, chỉ số thành công và giả thuyết ứng dụng AI. | Giúp hệ thống hóa vấn đề và gợi ý cả phương án có AI lẫn không dùng AI. | Có thể đề xuất chỉ số mục tiêu hoặc giải pháp khi chưa có đủ dữ liệu chứng minh. | Phân biệt số liệu self-report với số liệu đã đo lường; ghi rõ mục tiêu giảm từ 20 phút xuống không quá 10 phút chỉ là đề xuất, cần kiểm chứng lại baseline. |
+| CP4 Research | Hỗ trợ xác định những thông tin cần bổ sung để kiểm chứng vấn đề, như thời gian thực tế, tần suất tìm kiếm tài liệu và mức độ ảnh hưởng đến giáo viên. | Gợi ý các câu hỏi nghiên cứu và những giả định cần kiểm tra. | Có thể đưa ra kết luận về mức độ nghiêm trọng hoặc nhu cầu khi chưa có dữ liệu phỏng vấn và quan sát thực tế. | Không xem nhận định của AI là bằng chứng. Giữ kết luận thận trọng và xác định cần bổ sung dữ liệu từ giáo viên. |
+| CP5 Quy trình | Hỗ trợ mô tả và sắp xếp các bước trong quy trình chuẩn bị tài liệu giảng dạy hiện tại. | Giúp làm rõ luồng công việc và xác định công đoạn đọc, đối chiếu, chọn nguồn là bottleneck. | Có thể tự giả định thời gian cho từng bước hoặc đưa ra quy trình quá tổng quát. | Điều chỉnh theo quy trình thực tế; chỉ giữ số liệu khoảng 20 phút/đơn vị kiến thức tại công đoạn đã có thông tin, không tự chia thời gian cho các bước khác. |
+| CP5–6 Problem Statement | Hỗ trợ diễn đạt vấn đề thành một câu ngắn gọn, tập trung vào actor, nhu cầu và kết quả mong muốn. | Giúp câu Problem Statement rõ ràng, không đưa giải pháp vào ngay trong mô tả vấn đề. | Một số cách diễn đạt có thể mở rộng phạm vi hoặc mặc định AI là giải pháp cần thiết. | Chốt phạm vi là tìm kiếm, đối chiếu và chọn tài liệu bổ sung phù hợp với mục tiêu bài học và trình độ lớp. |
+| CP6 Mức can thiệp / quyết định | Hỗ trợ phân tích các công đoạn AI có thể tham gia, so sánh với phương án không dùng AI và nhận diện rủi ro triển khai. | Gợi ý các khả năng như tìm kiếm, tổng hợp, phân loại tài liệu; đồng thời chỉ ra rủi ro về độ tin cậy và tính phù hợp của nội dung. | Có xu hướng đề xuất giải pháp AI khá nhanh, trong khi chưa chứng minh được phương án không dùng AI hoặc công cụ sẵn có không đáp ứng nhu cầu. | Không lựa chọn triển khai AI ngay. Thống nhất **Not Yet**, ưu tiên bổ sung bằng chứng và kiểm chứng nhu cầu trước khi xây dựng giải pháp chuyên biệt. |
 
 ---
 
@@ -174,18 +175,22 @@ BOTTLENECK: Tốn khoảng 15–20 phút để rà soát đề cũ
 Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
+Cần tìm góc độ tiếp cận sâu vấn đề nhất có thể, vấn đề đặt ra phải chạm vào điểm đau của người dùng. Nhưng cần phải tính để plan cụ thể, rủi ro khi đưa ra solution cho vấn đề.
 
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+Có. Thành viên khác trong nhóm phát hiện ra khi đặt câu hỏi ngược. Khi nhận ra thì xem xét lại thực tế có thật sự cần đến solution đó không, kiểu đảo ngược vấn đề.
 
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
+Khi phản biện trong nhóm thì tôi không đổi ý nhưng khi mentor chỉ ra các điểm rủi ro, so sánh thực tế thì tôi có đổi ý. Ví dụ tại sao phải cần solution tổng hợp nguồn trong với ngôn ngữ tự nhiên là tiếng anh thì 1 số chatbot AI như Chatgpt có thể tự làm tốt chỉ với vài dòng lệnh ngắn và độ chính xác là xấp xỉ 90-99%.
 
-**6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
-
+**6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?** Có sau khi nghiên cứu, research kĩ lại thì có 1 số AI chatbot làm rất tốt, gen ra nhanh nếu prompt đúng nhưng từ đó tôi muốn định hướng sản phẩm theo 1 hướng khác 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
-
+Có chắc chắn vấn đề đưa ra là điểm đau thật sự của người dùng hướng đến hay không và phải viết sao cho hợp lí.
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
-
+Nếu làm lại, tôi sẽ nghiên cứu kĩ hơn các sản phẩm đã có hiện nay có thể giải quyết vấn đề mà tôi đưa ra hay không và mình sẽ làm được cải tiến gì so với những sản phẩm hiện tại mà giúp cho người dùng.
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
+Bài nhóm em giải quyết vấn đề giáo viên tiếng Anh mất nhiều thời gian tìm kiếm, đối chiếu và chọn tài liệu bổ sung phù hợp với bài học và trình độ học sinh. Điểm nghẽn nằm ở bước đọc và chọn lọc nguồn, mất khoảng 20 phút cho mỗi đơn vị kiến thức. Metric đặt ra là giảm thời gian này xuống không quá 10 phút mà vẫn đảm bảo chất lượng tài liệu. Nhóm giới hạn phạm vi ở việc tìm kiếm và lựa chọn tài liệu, không mở rộng sang chấm bài hay tự động soạn giáo án. AI có thể hỗ trợ tìm kiếm, tổng hợp và phân loại tài liệu, nhưng chưa chứng minh được AI là cần thiết vì vẫn có thể dùng giải pháp lưu trữ và phân loại thông thường. Do đó, nhóm quyết định Not Yet, tiếp tục kiểm chứng vấn đề và đánh giá các giải pháp đơn giản hơn trước khi triển khai AI.
+
 
 ---
 
