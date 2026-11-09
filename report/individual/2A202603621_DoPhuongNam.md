@@ -25,7 +25,7 @@
 
 ## 3. Top 3 Problem Cards (CP2)
 
-> Thời gian **từng bước** trong quy trình là em chia nhỏ theo trí nhớ từ tổng thời gian ở CP1 (ước lượng); sẽ bấm giờ thật ở các lần tới để kiểm lại.
+> Thời gian **từng bước** trong quy trình là em chia nhỏ theo trí nhớ từ tổng thời gian ở CP1 (ước lượng)
 
 | Rank | Problem | Vì sao chọn | Điều còn chưa chắc |
 |---:|---|---|---|
@@ -114,23 +114,46 @@ HIỆN TẠI — khoảng 60 phút/tuần (ước lượng)
 
 ## 4. Tôi đã tham gia phần nào
 
+
 | Hoạt động | Tôi đã làm gì? | Kết quả |
 |---|---|---|
-| Pitch Problem Card | | |
-| Phản biện bài bạn khác | | |
-| Nhận phản biện | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
+| Pitch Problem Card | Pitch 2 card: #7 khoanh vùng bug kế toán PM_KT và #8 tổng hợp, nhận xét bài tập MindX | Card bug PM_KT vào shortlist (28 điểm), xếp thứ 2. Bị loại vì cần quyền truy cập code, log, schema và dữ liệu nghiệp vụ mà nhóm không có trong buổi lab |
+| Phản biện bài bạn khác | Hỏi Phạm Thị Hồng Ngọc (pitch #2): "Câu giống chữ hay câu kiểm tra cùng kiến thức nhưng diễn đạt khác mới được xem là trùng?" · Hỏi Ngô Huy Hoàng (pitch #10): "Học viên không tìm thấy, hay không biết từ khoá/cách tìm trước khi hỏi?" | Câu hỏi với Ngọc chỉ ra định nghĩa "trùng lặp" chưa rõ nên metric của card khó đo  |
+| Nhận phản biện | Hồ Anh Dũng hỏi card bug: "Có thể bắt đầu bằng chuẩn hoá log và liên kết ticket thay vì dùng AI đọc code không?" · Ngọc hỏi card MindX: "Học sinh/phụ huynh cần nhận xét chi tiết hơn, hay chỉ cần nhận đúng hạn?" | Em đã có sẵn phương án không dùng AI (correlation ID, sơ đồ luồng, checklist debug) trong card; câu hỏi của Dũng xác nhận phương án này cần được thử trước AI |
+| Gom cluster / cây OST / chấm điểm (CP3) | Người chính CP3 theo phân công: gom 12 candidate thành 3 cluster, dựng cây OST, chấm điểm shortlist | Nhóm chọn candidate tìm, đối chiếu và chọn tài liệu tiếng Anh (33 điểm) |
+| Problem Statement v0 (CP5) | Người chính theo phân công | Problem Statement v0 6 trường trong mục 5 báo cáo nhóm |
+| Mức can thiệp + Problem Statement v1 (CP6) | Hỗ trợ Ngô Huy Hoàng theo phân công | Problem Statement v1 và bảng thay đổi v0 → v1 |
+| Thuyết trình | Chuẩn bị kịch bản và slide trình bày | Slide ghi quyết định "Go, phạm vi nhỏ", sau đó nhóm chốt **Not Yet** trong báo cáo — cần đồng bộ slide với báo cáo |
 
 ## 5. Dùng AI
 
 | Checkpoint | Dùng AI để làm gì? | Hữu ích ở đâu? | Sai/hời hợt ở đâu? | Tôi sửa gì |
 |---|---|---|---|---|
-| CP1 Scan | | | | |
-| CP2 Card | | | | |
-| CP4 Research | | | | |
-| CP5 Quy trình | | | | |
+| CP1 Scan | Chuyển 5 problem em tự viết sang đúng mẫu bảng Job Story; gợi ý thêm problem | Trình bày đúng format, thêm cột actor và bằng chứng | Một lý do bỏ ý gợi ý là AI tự đoán ("dự án không có người mới vào"), không có căn cứ | Bỏ ý đó khỏi bảng; giữ số liệu của em, ghi "(ước lượng)" |
+| CP2 Card | Dựng 3 Problem Card chi tiết; đóng vai PM hoài nghi | Chỉ ra baseline chỉ dựa trí nhớ, điểm kết thúc "khoanh vùng xong" chưa rõ, rủi ro đưa mã nguồn vào AI | Thời gian từng bước trong sơ đồ quy trình do AI chia nhỏ từ tổng thời gian, không phải số em đo | Ghi chú rõ thời gian từng bước là ước lượng, cần bấm giờ lại; tự quyết định đồng ý/không với từng phản biện |
+| CP4 Research | Tìm các công cụ tương tự cho phần so sánh thị trường (Diffit, MagicSchool, Twee, NotebookLM, Perplexity) | Có nhanh danh sách công cụ và khoảng trống so với bài toán | Thông tin lấy từ bài tổng hợp, chưa phải trang chính thức | Báo cáo nhóm dùng link chính thức ở mục 3.3; cần tự mở lại từng link |
+| CP4 Kiểm chứng | Hỏi AI soạn câu hỏi survey theo Mom Test | Có bộ 6 câu hỏi hỏi về chuyện đã xảy ra | AI từ chối tạo khảo sát giả để nộp, vì sẽ là bằng chứng không có thật | Giữ nguyên trạng thái "chưa đủ phỏng vấn" và quyết định Not Yet |
+| CP7 Reflection | Soạn nháp câu 6.1–6.6 từ các sự kiện trong buổi (theo cho phép của giảng viên trên lớp) | Gợi nhớ lại các tình huống cụ thể | Có thể viết cảm nhận chưa đúng với suy nghĩ thật của em | Đọc lại, sửa theo trải nghiệm của em |
+| Thuyết trình | Soạn kịch bản và slide HTML | Có khung problem → solution → feature → giá trị → so sánh → kế hoạch → rủi ro | Rủi ro ban đầu viết quá trừu tượng; slide kết luận "Go" lệch với báo cáo nhóm "Not Yet" | Yêu cầu viết lại rủi ro thành tình huống cụ thể |
 
 ## 6. Reflection
+
+
+**6.1. Em học được gì khi nghe top 3 problems của các bạn khác?**
+
+Nghe 12 pitch, em nhận ra các bối cảnh rất khác nhau nhưng pain lại giống nhau. Bug kế toán của em được gom chung cluster với bài Trello của Dũng và bài theo dõi tiến độ của Hoàng, vì cùng là chuyển thông tin phân tán thành việc cần làm. Em cũng thấy những bài có số đo cụ thể, như 14 phút mỗi phương án bố trí của Mạnh hay 20 phút mỗi ngày đi nhắc Trello của Dũng
+
+**6.2. Nhóm có lúc nào bị "solution-first" không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+
+Có. Khi chọn bài tìm tài liệu tiếng Anh, có ý kiến muốn thêm "AI chấm tự luận" để sản phẩm khác biệt hơn. Nhóm đối chiếu lại với bottleneck là bước đọc và đối chiếu nguồn, thấy chấm tự luận không giải quyết bước đó nên gạch nó khỏi tầng opportunity trong cây OST. Chính em cũng từng solution-first: trong card bug, em viết "giả thuyết về AI" khá sớm trước khi thử các cách đơn giản hơn.
+
+**6.3. Em có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
+
+Có. Dũng hỏi card bug của em: "Có thể bắt đầu bằng chuẩn hoá log và liên kết ticket thay vì dùng AI đọc code không?". Câu hỏi này làm em thấy bước nghẽn có thể nằm ở việc log không có mã liên kết giữa các luồng, chứ chưa chắc cần AI. Em đồng ý rằng correlation ID và sơ đồ luồng nghiệp vụ phải được thử trước.
+
+**6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
+
+Có. Phản hồi giáo viên cho rằng hướng của nhóm chưa khác biệt rõ so với ChatGPT hay Claude khi được hướng dẫn kỹ. Research cũng cho thấy NotebookLM, Diffit và MagicSchool đã làm được phần lớn việc tóm tắt, điều chỉnh theo trình độ. Điều này làm nhóm bỏ ý định xây công cụ riêng và chuyển sang so sánh với công cụ có sẵn.
+
 
 >
