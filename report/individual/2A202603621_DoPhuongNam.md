@@ -133,7 +133,6 @@ HIỆN TẠI — khoảng 60 phút/tuần (ước lượng)
 | CP2 Card | Dựng 3 Problem Card chi tiết; đóng vai PM hoài nghi | Chỉ ra baseline chỉ dựa trí nhớ, điểm kết thúc "khoanh vùng xong" chưa rõ, rủi ro đưa mã nguồn vào AI | Thời gian từng bước trong sơ đồ quy trình do AI chia nhỏ từ tổng thời gian, không phải số em đo | Ghi chú rõ thời gian từng bước là ước lượng, cần bấm giờ lại; tự quyết định đồng ý/không với từng phản biện |
 | CP4 Research | Tìm các công cụ tương tự cho phần so sánh thị trường (Diffit, MagicSchool, Twee, NotebookLM, Perplexity) | Có nhanh danh sách công cụ và khoảng trống so với bài toán | Thông tin lấy từ bài tổng hợp, chưa phải trang chính thức | Báo cáo nhóm dùng link chính thức ở mục 3.3; cần tự mở lại từng link |
 | CP4 Kiểm chứng | Hỏi AI soạn câu hỏi survey theo Mom Test | Có bộ 6 câu hỏi hỏi về chuyện đã xảy ra | AI từ chối tạo khảo sát giả để nộp, vì sẽ là bằng chứng không có thật | Giữ nguyên trạng thái "chưa đủ phỏng vấn" và quyết định Not Yet |
-| CP7 Reflection | Soạn nháp câu 6.1–6.6 từ các sự kiện trong buổi (theo cho phép của giảng viên trên lớp) | Gợi nhớ lại các tình huống cụ thể | Có thể viết cảm nhận chưa đúng với suy nghĩ thật của em | Đọc lại, sửa theo trải nghiệm của em |
 | Thuyết trình | Soạn kịch bản và slide HTML | Có khung problem → solution → feature → giá trị → so sánh → kế hoạch → rủi ro | Rủi ro ban đầu viết quá trừu tượng; slide kết luận "Go" lệch với báo cáo nhóm "Not Yet" | Yêu cầu viết lại rủi ro thành tình huống cụ thể |
 
 ## 6. Reflection
