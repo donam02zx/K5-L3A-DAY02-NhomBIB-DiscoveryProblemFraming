@@ -86,28 +86,23 @@ Quy trình nháp hiện tại:
 
 Quy trình nháp hiện tại:
 
-```text
-HIỆN TẠI — ước tính 5–15 phút tìm kiếm
-+ thời gian chờ người khác phản hồi
-
-[1. Gặp vấn đề khi học/làm lab]
+[1. Gặp lỗi hoặc có thắc mắc]
         ↓
-[2. Nhớ rằng có thể đã có người hỏi]
+[2. Nhớ lại xem đã có ai hỏi chưa: 1–2']
         ↓
-[3. Nhập từ khóa hoặc cuộn nhóm chat: 3–7']
+[3. Nhập từ khóa/cuộn lịch sử chat: 3–8'] ← BOTTLENECK
         ↓
-[4. Đọc nhiều đoạn hội thoại: 2–8'] ← BOTTLENECK
+[4. Đọc nhiều đoạn hội thoại để kiểm tra: 2–5'] ← BOTTLENECK
         ↓
-      Tìm thấy?
-      /       \
-    Có        Không
-     ↓           ↓
-[5A. Dùng       [5B. Đăng lại câu hỏi]
- câu trả lời]             ↓
-                  [6. Chờ phản hồi: CHƯA ĐO]
-                           ↓
-                  [7. Coach/học viên trả lời lại]
-```
+     Tìm thấy?
+      ↙      ↘
+    Có       Không
+     ↓         ↓
+[Áp dụng]  [5. Đăng lại câu hỏi: 2–3']
+              ↓
+           [6. Chờ phản hồi: CHƯA ĐO]
+              ↓
+           [7. Nhận câu trả lời nhưng sau đó tiếp tục bị trôi]
 
 ### Problem Card #3
 
