@@ -197,4 +197,11 @@ Khi nghe về top 3 problem của các bạn khác em thấy mỗi người tron
 
 ## 7. Tài liệu tham khảo
 
--
+- [Google Help — NotebookLM/Gemini Notebook: dùng chat với nguồn](https://support.google.com/gemininotebook/answer/16179559?hl=en)
+- [Diffit — FAQ chính thức](https://web.diffit.me/faq)
+- [MagicSchool — Lesson Plan Generator](https://www.magicschool.ai/tools/lesson-plan)
+- [Google PAIR — User Needs and Defining Success](https://pair.withgoogle.com/chapter/user-needs/)
+- [Anthropic — Building Effective Agents](https://www.anthropic.com/research/building-effective-agents)
+- [SVPG — Four Big Risks](https://www.svpg.com/four-big-risks/)
+- [The Mom Test](https://www.momtestbook.com/)
+- [Product Talk — Opportunity Solution Trees](https://www.producttalk.org/opportunity-solution-trees/)
