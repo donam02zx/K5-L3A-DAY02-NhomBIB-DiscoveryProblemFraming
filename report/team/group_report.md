@@ -389,8 +389,4 @@ Khi chạy, chấm từng output theo C1–C5 là Đạt/Không đạt và lưu 
 - Chưa có corpus lớp được duyệt; 10 ca eval là dữ liệu tổng hợp chưa chạy. Chưa chứng minh level/citation/KB tạo lợi thế cạnh tranh.
 - Research xác nhận chức năng công bố, không phải benchmark của nhóm. Có nguồn không đồng nghĩa được sao chép hoặc dùng lại tùy ý.
 - Mục tiêu v1 về actor/nguồn và chỉ tiêu so sánh cần xác nhận bằng CP4; không coi toàn bộ thay đổi là phát hiện người dùng đã chứng minh.
-- TEAM.md hiện còn trống; nhóm cần tự ghi thành viên, phân công và đóng góp thật. Báo cáo này không thay bằng chứng đóng góp được rubric yêu cầu.
-- Bài cá nhân nào đang mô tả quyết định khác với candidate hiện tại cần được người viết đối chiếu lại trước khi nộp.
-- Nếu nghiên cứu môn khoa học tự nhiên/logic phức tạp, lập một vòng Discover mới; không mặc định kiến thức khó hơn khiến sản phẩm có khác biệt hoặc model trả lời đúng hơn.
-
 ## 10. Tài liệu tham khảo
