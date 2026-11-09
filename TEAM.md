@@ -15,7 +15,7 @@
 | 1 | Đỗ Phương Nam | 2A202603621 | Điều phối và tổng hợp Problem Statement | [Tự điền] |
 | 2 | Hồ Anh Dũng | 2A202603613 | Vẽ quy trình trước/sau | [Tự điền] |
 | 3 | Hồ Đức Mạnh | 2A202603609 | Rà soát nguồn tham khảo và hỗ trợ ghi chép | hoducmanhtemperature |
-| 4 | Ngô Huy Hoàng | 2A202603622 | Phản biện và đối chiếu mức can thiệp | [Tự điền] |
+| 4 | Ngô Huy Hoàng | 2A202603622 | Phản biện và đối chiếu mức can thiệp | HuyHoangg10 |
 | 5 | Phạm Thị Hồng Ngọc | 2A202603602 | Kiểm chứng nhu cầu giáo viên | [Tự điền] |
 | 6 | Trương Hoàng Tùng | 2A202603651 | Rà soát rủi ro và quyết định | Dobit25 |
 
@@ -95,19 +95,28 @@
 
 **Phần việc phụ trách:**
 
-- [Thành viên tự điền]
+- Phụ trách chính CP6: đối chiếu mức can thiệp No AI / Rule / Workflow / Agent và hỗ trợ hoàn thiện Problem Statement v1.
+- Hỗ trợ CP3: pitch, phản biện và hội tụ các candidate problem của nhóm.
 
 **Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
 
-- [Thành viên tự điền]
+- Pitch và phản biện hai vấn đề: PM phải liên tục hỏi tiến độ và học viên khó tìm lại câu hỏi/câu trả lời cũ.
+- Cùng nhóm gom cluster, dựng cây OST, chấm điểm và chọn shortlist.
+- So sánh các mức can thiệp, bổ sung AI Canvas, PAIR và tiêu chí đánh giá cho candidate được chọn.
+- Đề xuất chưa đi thẳng lên Agent khi quy trình còn có thể định nghĩa trước và bằng chứng người dùng chưa đủ; ưu tiên Workflow có human review để kiểm chứng trước.
 
 **Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
 
-- [Thành viên tự điền]
+- `group_report.md`: mục 2.1–2.4 (pitch, phản biện và hội tụ nhóm).
+- `group_report.md`: mục 6.2–6.4 (so sánh mức can thiệp, AI Canvas và PAIR).
+- `group_report.md`: mục 7 (Problem Statement v1 và tiêu chí đánh giá).
+- Commit cập nhật phần đóng góp cá nhân trong `TEAM.md`.
 
 **Điều mình học được từ phần nhóm:**
 
-- [Thành viên tự điền]
+- Em hiểu rõ hơn sự khác nhau giữa Workflow và Agent: nếu các bước và quy tắc đã xác định được thì chưa cần Agent.
+- Trước khi chọn giải pháp AI cần so sánh với phương án không AI, Rule và Workflow, đồng thời giữ con người ở bước quyết định quan trọng.
+- Khi bằng chứng kiểm chứng chưa đủ, quyết định hợp lý là `Not Yet` thay vì cố chốt giải pháp sớm.
 
 ### PhamThiHongNgoc-2A202603602
 
