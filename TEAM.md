@@ -13,7 +13,7 @@
 | STT | Họ và tên | MSSV | Vai trò trong nhóm | Tài khoản GitHub |
 |---:|---|---|---|---|
 | 1 | Đỗ Phương Nam | 2A202603621 | Điều phối và tổng hợp Problem Statement | donam02zx |
-| 2 | Hồ Anh Dũng | 2A202603613 | Vẽ quy trình trước/sau | [Tự điền] |
+| 2 | Hồ Anh Dũng | 2A202603613 | Vẽ quy trình trước/sau | ITCSIU21172 |
 | 3 | Hồ Đức Mạnh | 2A202603609 | Rà soát nguồn tham khảo và hỗ trợ ghi chép | hoducmanhtemperature |
 | 4 | Ngô Huy Hoàng | 2A202603622 | Phản biện và đối chiếu mức can thiệp | HuyHoangg10 |
 | 5 | Phạm Thị Hồng Ngọc | 2A202603602 | Kiểm chứng nhu cầu giáo viên | [Tự điền] |
@@ -66,21 +66,28 @@
 ### HoAnhDung-2A202603613
 
 **Phần việc phụ trách:**
+- Lên ý tưởng (Pitch) bài toán nghiệp vụ góc nhìn Business Analyst.
+- Phản biện, rà soát bẫy "Solution-first" (giải pháp đi trước vấn đề) của nhóm.
+- Chuẩn hóa và tối ưu hóa luồng quy trình nghiệp vụ (As-Is / To-Be).
+- Phân tích rủi ro kinh doanh (Viability) và tinh chỉnh các chỉ số đo lường (Success Metrics, Before/After).
 
-- [Thành viên tự điền]
 
 **Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
 
-- [Thành viên tự điền]
+- Giai đoạn Pitch & OST: Đóng góp 2 Problem Cards (#5, #6) về nỗi đau tổng hợp thông tin/điều phối task của BA, làm cơ sở hình thành Cluster B. Đặt câu hỏi phản biện giúp team nhận ra nhiều bài toán chỉ cần sửa Quy ước (Rule) thay vì dùng AI.
+- Giai đoạn Research (CP4): Chỉ ra cho nhóm thấy Giả định #2 và #3 chính là LoFA (Leap of Faith Assumption - Giả định rủi ro nhất) cần ưu tiên đi phỏng vấn xác thực.
+- Giai đoạn Quy trình (CP5): Đề xuất chẻ nhỏ Bottleneck 20 phút ở luồng As-Is thành 2 thao tác (Skimming và Deep Reading) để thấy rõ nỗi đau. Bổ sung "Bước 0: Setup Knowledge Base" (chi phí ẩn) và luồng ngoại lệ (Unhappy path) vào quy trình To-Be.
+- Giai đoạn Đánh giá & Quyết định (CP6): Đưa góc nhìn BA vào bảng 4.3 (Trước/Sau) bằng cách bổ sung chỉ số Cognitive Load (Tải trọng nhận thức)và Context Switching (Chuyển đổi ngữ cảnh). Bổ sung rủi ro Willingness to pay (Sự sẵn sàng chi trả) vào mục Viability, củng cố vững chắc cho quyết định "Not Yet".
 
 **Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
-
-- [Thành viên tự điền]
-
+- Mục 2.1: Candidate #5, #6 và các câu hỏi phản biện trực tiếp Đỗ Phương Nam, Ngô Huy Hoàng.
+- Mục 3.1 & 8.1: Các đánh giá về rủi ro Viability và xác định LoFA (thời gian setup, khả năng chi trả của giáo viên).
+- Mục 4.1 & 4.2: Bản nháp quy trình đã được phân tách bước nghẽn và làm rõ các thao tác kiểm duyệt của con người (Human-in-the-loop).
+- Mục 4.3 & 5: Bảng so sánh Before/After và Success Metrics có chứa các chỉ số về chất lượng (Tỷ lệ chấp nhận tài liệu) và rủi ro thời gian setup.
 **Điều mình học được từ phần nhóm:**
-
-- [Thành viên tự điền]
-
+- Không vội "say đắm" giải pháp (Solution-first): Em nhận ra team làm Tech rất dễ sa đà vào việc nghĩ tính năng (AI chấm tự luận, app riêng) trước khi hiểu thấu đáo nỗi đau. Vai trò của BA là phải liên tục "kéo" team về lại thực tế bằng cách hỏi: "Người dùng có thực sự cần không? Quy trình tay hiện tại đã tối ưu chưa?".
+- Cẩn thận với "Chi phí ẩn" của AI: Một quy trình AI trông có vẻ giảm thời gian (từ 40 phút xuống 22 phút) nhưng lại sinh ra chi phí chuẩn bị dữ liệu (KB setup, upload, tag). Nếu công setup lớn hơn thời gian tiết kiệm được, dự án sẽ thất bại.
+- Góc nhìn đa chiều khi đánh giá: Em học được cách không chỉ đo lường bằng số bước, số phút, mà còn phải đánh giá sự "mệt mỏi não bộ" (Cognitive load) của người dùng và tính khả thi về mặt kinh doanh (Willingness to pay). Quyết định "Not Yet" của nhóm không phải là thất bại, mà là một bước lùi dũng cảm, tỉnh táo để tránh lãng phí nguồn lực khi bằng chứng (Evidence) chưa đủ.
 ### HoDucManh-2A202603609
 
 **Phần việc phụ trách:**
