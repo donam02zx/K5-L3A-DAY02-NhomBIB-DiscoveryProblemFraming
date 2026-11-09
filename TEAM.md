@@ -12,7 +12,7 @@
 
 | STT | Họ và tên | MSSV | Vai trò trong nhóm | Tài khoản GitHub |
 |---:|---|---|---|---|
-| 1 | Đỗ Phương Nam | 2A202603621 | Điều phối và tổng hợp Problem Statement | [Tự điền] |
+| 1 | Đỗ Phương Nam | 2A202603621 | Điều phối và tổng hợp Problem Statement | donam02zx |
 | 2 | Hồ Anh Dũng | 2A202603613 | Vẽ quy trình trước/sau | [Tự điền] |
 | 3 | Hồ Đức Mạnh | 2A202603609 | Rà soát nguồn tham khảo và hỗ trợ ghi chép | hoducmanhtemperature |
 | 4 | Ngô Huy Hoàng | 2A202603622 | Phản biện và đối chiếu mức can thiệp | HuyHoangg10 |
@@ -37,19 +37,31 @@
 
 **Phần việc phụ trách:**
 
-- [Thành viên tự điền]
+- Điều phối nhóm và tổng hợp Problem Statement.
+- CP3 — Hội tụ nhóm (người chính): cluster, cây OST, bảng chấm điểm.
+- CP5 — Problem Statement v0 (người chính).
+- CP6 — Mức can thiệp + Problem Statement v1 (hỗ trợ).
 
 **Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
-
-- [Thành viên tự điền]
+- Pitch 2 candidate: khoanh vùng bug kế toán PM_KT (#7) và tổng hợp, nhận xét bài tập MindX (#8). Candidate bug vào shortlist với 28 điểm; nhóm loại vì cần quyền truy cập code, log và dữ liệu nghiệp vụ không có trong buổi lab.
+- Đặt câu hỏi phản biện cho pitch #2 (thế nào là câu hỏi "trùng lặp") và pitch #10 (học viên không tìm thấy hay không biết cách tìm).
+- Tổng hợp cluster, cây OST và bảng chấm điểm shortlist ở CP3.
+- Soạn Problem Statement v0 và hỗ trợ bảng thay đổi v0 → v1.
+- Chuẩn bị kịch bản và slide thuyết trình của nhóm.
 
 **Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
 
-- [Thành viên tự điền]
+- `report/team/group_report.md`, mục 2.1: pitch #7, #8 và câu hỏi phản biện cho #2, #10.
+- `report/team/group_report.md`, mục 2.2–2.4: cluster, cây OST, chấm điểm shortlist.
+- `report/team/group_report.md`, mục 5: Problem Statement v0.
+- `report/individual/2A202603621_DoPhuongNam.md`, mục 2–4: CP1, CP2 và phần tham gia nhóm.
+- về phần commit do có 1 file làm chung nên 1 bạn đại diện làm nên file group_report.md không có commit
 
 **Điều mình học được từ phần nhóm:**
 
-- [Thành viên tự điền]
+- Problem có tần suất và impact cao chưa chắc là candidate tốt nhất cho nhóm: card bug PM_KT của em có số liệu rõ nhưng bị loại vì nhóm không có quyền truy cập code, log và dữ liệu để kiểm chứng trong buổi lab.
+- Phản biện "thử chuẩn hoá log và liên kết ticket trước khi dùng AI" giúp mình thấy phải loại trừ phương án No AI / Rule trước, thay vì mặc định AI là lời giải.
+- Số tự ước lượng phải được ghi rõ là ước lượng; khi viết Problem Statement, phần khó nhất là đặt metric đo được khi baseline mới chỉ là self-report.
 
 ### HoAnhDung-2A202603613
 
