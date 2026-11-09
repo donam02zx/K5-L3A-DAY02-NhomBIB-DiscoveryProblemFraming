@@ -164,7 +164,7 @@ Quy trình nháp hiện tại:
 | Quy trình nhóm | Em xem lại quy trình hiện tại và quy trình tương lai của nhóm, chú ý bước nào dùng Rule, bước nào AI hỗ trợ và bước nào giáo viên vẫn phải tự kiểm tra. | Nhóm giữ giáo viên ở bước kiểm tra và quyết định cuối cùng, đồng thời có phương án quay lại quy trình cũ nếu kết quả hỗ trợ không đáng tin cậy. |
 | Problem Statement | Em hỗ trợ CP6 và rà soát Problem Statement v1 theo phần phân công trong `TEAM.md`. | Phần này được ghi lại ở mục 7 của báo cáo nhóm. |
 | Mức can thiệp AI | Em phụ trách đối chiếu bốn mức No AI, Rule, Workflow và Agent; đồng thời hỗ trợ phần AI Canvas và câu hỏi PAIR. | Nhóm đề xuất thử một Workflow hẹp, vẫn để giáo viên kiểm tra và quyết định cuối cùng; Agent không được chọn. |
-| Quyết định | | |
+| Quyết định | Em xem lại những bằng chứng nhóm đang có và đồng ý rằng chưa nên vội xây một sản phẩm riêng. Hiện tại nhóm mới có research và một số phản hồi ban đầu, chưa đủ để chứng minh Workflow đề xuất tốt hơn những cách đơn giản hơn. | Nhóm chốt `Not Yet`. Trước khi quyết định làm tiếp, nhóm cần đo lại baseline, hỏi thêm người dùng thật và thử cùng một tác vụ với phương án không AI, general agent và Workflow đề xuất để so sánh. |
 
 ---
 
